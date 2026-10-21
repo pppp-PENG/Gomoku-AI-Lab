@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open game database · Gomoku Party</title>
+  <meta name="description" content="Download monthly Gomoku Party games across all rulesets. Free, anonymous SGF archives with complete moves, Elo ratings and SHA-256 checksums.">
+  <meta name="theme-color" content="#07101e">
+  <meta property="og:title" content="Gomoku Party open game database">
+  <meta property="og:description" content="Real games. Every move. Download free monthly archives with every game format in the established SGF format.">
+  <meta property="og:url" content="https://gomokuparty.com/database/">
+  <link rel="canonical" href="https://gomokuparty.com/database/">
+  <link rel="stylesheet" href="/fonts-v1.css">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="database.css?v=1">
+  <script src="database-v2-human.js?v=20261001" defer></script>
+  <link rel="stylesheet" href="/marketing-consent-v1.css?v=20260928ads2">
+  <script type="module" src="/marketing-consent-v1.mjs?v=20260928ads2" data-marketing-consent></script>
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Skip to downloads</a>
+  <header class="header wrap">
+    <a class="brand" href="/" aria-label="Gomoku Party home"><span class="mark" aria-hidden="true">●<i>○</i></span> Gomoku <strong>Party</strong></a>
+    <nav aria-label="Main navigation"><a href="/play/" data-i18n="play">Play Gomoku</a><button id="language" type="button" lang="hu" aria-label="Magyar nyelv">HU</button></nav>
+  </header>
+  <main id="main" class="wrap">
+    <section class="intro" aria-labelledby="title">
+      <div>
+        <p class="eyebrow" data-i18n="eyebrow">THE OPEN GAME DATABASE</p>
+        <h1 id="title" data-i18n="title">Every game.<br>A little more to discover.</h1>
+        <p class="lead" data-i18n="lead">Study the moves. Explore the patterns. Build something new. Completed games from every format are free for everyone to download and use.</p>
+        <div class="tags"><span>SGF FF[4]</span><span data-i18n="monthly">Monthly archives</span><span>CC0</span></div>
+      </div>
+      <figure class="specimen" aria-label="Example Gomoku position and its SGF move notation">
+        <div class="board" aria-hidden="true"><span class="stone black" style="--x:3;--y:3">1</span><span class="stone white" style="--x:4;--y:3">2</span><span class="stone black" style="--x:4;--y:4">3</span><span class="stone white" style="--x:5;--y:5">4</span><span class="stone black" style="--x:3;--y:4">5</span></div>
+        <figcaption><span data-i18n="example">A game, in plain text</span><code>;B[hh];W[ih];B[ii];W[jj];B[hi]</code></figcaption>
+      </figure>
+    </section>
+    <section class="archive" aria-labelledby="downloads-title">
+      <div class="section-head"><div><p class="eyebrow" data-i18n="collection">THE COLLECTION</p><h2 id="downloads-title" data-i18n="downloads">Download the games</h2></div><p id="total" class="total" aria-live="polite"></p></div>
+      <p class="section-copy" data-i18n="scope">All completed games between human players with at least 5 moves, across every ruleset and game mode, rated or unrated. Each file contains one month of games, grouped by finish time in UTC.</p>
+      <div id="status" role="status" data-i18n="loading">Loading the archive…</div>
+      <div id="archive-table" hidden class="table-scroll"><table><caption class="sr-only" data-i18n="caption">Monthly game downloads across all formats</caption><thead><tr><th scope="col" data-i18n="month">Month</th><th scope="col" data-i18n="games">Games</th><th scope="col" data-i18n="size">Size</th><th scope="col" data-i18n="download">Download</th></tr></thead><tbody id="months"></tbody></table></div>
+      <p class="archive-note" data-i18n="note">Freestyle, Renju, Swap2, Pente, Ninuki Renju and Caro are included, together with friendly, private, rematch and tournament games. Each record identifies its ruleset and game mode. Rapfi bot games, aborted games, records with fewer than 5 moves and incomplete records are excluded. New completed months are published automatically.</p>
+      <noscript><p>Enable JavaScript to see the download table, or open the <a href="/api/v1/database">archive manifest</a> for the file names, counts and checksums.</p></noscript>
+    </section>
+    <section class="details" aria-label="Using the database">
+      <article><span class="detail-label" data-i18n="formatLabel">A SHARED FORMAT</span><h2 data-i18n="formatTitle">Ready for your next idea.</h2><p data-i18n="formatText">SGF is an established format for board-game records, with a game identifier for Gomoku and Renju. We use SGF FF[4], GM[4], a 15 × 15 board and UTF-8 text, compressed with gzip.</p><p data-i18n="profileText">Our open profile identifies each ruleset and game mode, recorded captures, Elo ratings, timestamps and per-move or Fischer clocks. Use a reader that supports Gomoku; a Go-only reader may interpret the rules differently.</p><a class="text-link" href="format.html" data-i18n="readFormat">Read the format specification ↗</a></article>
+      <article><span class="detail-label" data-i18n="startLabel">START EXPLORING</span><h2 data-i18n="startTitle">Download. Unpack. Replay.</h2><p data-i18n="startText">A monthly file is an SGF collection: one complete game tree per line. The moves stay in their original order. No account or API key is required.</p><pre><code>gzip -dk gomokuparty-*.sgf.gz
+shasum -a 256 -c *.sgf.gz.sha256</code></pre><p class="small" data-i18n="checksumText">Download the SHA-256 file beside an archive to verify that your download is complete.</p><a class="text-link" href="/api/v1/database" data-i18n="manifest">Open the machine-readable manifest ↗</a></article>
+    </section>
+    <section class="reuse"><div><p class="eyebrow" data-i18n="openLabel">OPEN TO EVERYONE</p><h2 data-i18n="reuseTitle">Learn from the game.<br>Leave identities out of it.</h2></div><div><p data-i18n="privacy">Records contain the moves, result, dates, time control and pre-game Elo ratings. Players are labelled Black and White. Names, account IDs, chat, email addresses and device data are not included.</p><p data-i18n="license">The game dataset and our format profile are released under CC0 1.0. Use them for research, analysis, training and your own tools. Attribution is welcome, but not required.</p><a href="https://creativecommons.org/publicdomain/zero/1.0/" class="text-link">CC0 1.0 Universal ↗</a></div></section>
+  </main>
+  <footer class="wrap footer"><a href="/" data-i18n="home">← Gomoku Party</a><nav aria-label="Footer"><button type="button" data-marketing-settings hidden>Cookie settings</button><a href="/support.html" data-i18n="support">Support</a><a href="https://uptime.gomokuparty.com/" target="_blank" rel="noopener noreferrer" data-i18n="serviceStatus">Service status</a><a href="/privacy.html" data-i18n="privacyLink">Privacy</a><a href="https://www.red-bean.com/sgf/">SGF standard ↗</a></nav></footer>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"eca94c5264294ab4bd982c09949518c8","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "mode": "paired",
+  "initial_checkpoint": "REPLACE_WITH_CHECKPOINT_ID_A",
+  "opponent_initial_checkpoint": "REPLACE_WITH_CHECKPOINT_ID_B",
+  "games": 200,
+  "simulations": 32,
+  "parallel_games": 4,
+  "batch_size": 64,
+  "replay_size": 20000,
+  "updates_per_game": 4,
+  "learning_rate": 0.001,
+  "checkpoint_every": 20,
+  "eval_every": 40,
+  "device": "auto",
+  "threads": 4,
+  "max_hours": 2,
+  "disk_budget_gb": 4
+}

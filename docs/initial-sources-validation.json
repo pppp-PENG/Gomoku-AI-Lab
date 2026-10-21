@@ -1,0 +1,366 @@
+{
+  "tests_passed": 54,
+  "sources_before": [
+    {
+      "id": "12514adca15940bda6a8e5c99375e277",
+      "agent": "B",
+      "games": 2000,
+      "updates": 16000,
+      "model_config": {
+        "architecture": "cnn",
+        "size": 9,
+        "channels": 48,
+        "blocks": 4,
+        "dim": 64,
+        "layers": 3,
+        "heads": 4,
+        "mlp_ratio": 2
+      },
+      "sha256": "9ebefdfd8e55514c080ab8a40c3a70ee9ee883daa7234e596e54d77afb5754e1",
+      "unchanged": true
+    },
+    {
+      "id": "46454db0c7f149d7bc855ea369942bc5",
+      "agent": "A",
+      "games": 2000,
+      "updates": 16000,
+      "model_config": {
+        "architecture": "cnn",
+        "size": 9,
+        "channels": 48,
+        "blocks": 4,
+        "dim": 64,
+        "layers": 3,
+        "heads": 4,
+        "mlp_ratio": 2
+      },
+      "sha256": "2996f7a2667d1a43ea29aa09148007d9d9affb39cbab92221530b41d6167364c",
+      "unchanged": true
+    }
+  ],
+  "experiment": "2ead1aa380a04b4f9b7682cf74dbc45c",
+  "status": "completed",
+  "config": {
+    "model": {
+      "architecture": "cnn",
+      "size": 9,
+      "channels": 48,
+      "blocks": 4,
+      "dim": 64,
+      "layers": 3,
+      "heads": 4,
+      "mlp_ratio": 2
+    },
+    "seed": 42,
+    "games": 2,
+    "simulations": 8,
+    "parallel_games": 4,
+    "batch_size": 16,
+    "replay_size": 20000,
+    "updates_per_game": 4,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "checkpoint_every": 20,
+    "eval_every": 40,
+    "eval_pairs": 2,
+    "device": "auto",
+    "threads": 4,
+    "temperature_moves": 12,
+    "mode": "paired",
+    "opponent": null,
+    "opponent_model": {
+      "architecture": "cnn",
+      "size": 9,
+      "channels": 48,
+      "blocks": 4,
+      "dim": 64,
+      "layers": 3,
+      "heads": 4,
+      "mlp_ratio": 2
+    },
+    "initial_checkpoint": "12514adca15940bda6a8e5c99375e277",
+    "opponent_initial_checkpoint": "46454db0c7f149d7bc855ea369942bc5",
+    "max_hours": 0.02,
+    "disk_budget_gb": 4.0
+  },
+  "metrics": [
+    {
+      "step": 2,
+      "created": 1792336983.6654453,
+      "policy_loss": 2.1218647956848145,
+      "value_loss": 0.0018970519304275513,
+      "loss": 2.1237618923187256,
+      "grad_norm": 7.223238945007324,
+      "partner_policy_loss": 2.8179330825805664,
+      "partner_value_loss": 0.011045324616134167,
+      "partner_loss": 2.8289783000946045,
+      "partner_grad_norm": 10.49389362335205,
+      "replay_b": 26,
+      "updates_b": 8,
+      "a_score": 1.0,
+      "b_score": 0.0,
+      "games": 2,
+      "updates": 8,
+      "replay": 27,
+      "average_length": 26.5,
+      "black_win_rate": 0.5,
+      "draw_rate": 0.0,
+      "seconds": 2.7806035000030533,
+      "games_per_second": 0.7212175681540139,
+      "rss_mb": 1427.38671875,
+      "gpu_memory_mb": 74.4375,
+      "device": "cuda",
+      "learning_rate": 0.0009960069930043736,
+      "selfplay_seconds": 2.2388447999983327,
+      "update_seconds": 0.5359442999979365
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "43d4ab3c584b49928fd235de28517262",
+      "agent": "B",
+      "games": 2,
+      "updates": 8,
+      "model_config": {
+        "architecture": "cnn",
+        "size": 9,
+        "channels": 48,
+        "blocks": 4,
+        "dim": 64,
+        "layers": 3,
+        "heads": 4,
+        "mlp_ratio": 2
+      },
+      "parameters": 170548,
+      "initialization": {
+        "A": {
+          "kind": "checkpoint",
+          "checkpoint": "12514adca15940bda6a8e5c99375e277",
+          "source_agent": "B",
+          "source_games": 2000,
+          "source_updates": 16000,
+          "model_config": {
+            "architecture": "cnn",
+            "size": 9,
+            "channels": 48,
+            "blocks": 4,
+            "dim": 64,
+            "layers": 3,
+            "heads": 4,
+            "mlp_ratio": 2
+          }
+        },
+        "B": {
+          "kind": "checkpoint",
+          "checkpoint": "46454db0c7f149d7bc855ea369942bc5",
+          "source_agent": "A",
+          "source_games": 2000,
+          "source_updates": 16000,
+          "model_config": {
+            "architecture": "cnn",
+            "size": 9,
+            "channels": 48,
+            "blocks": 4,
+            "dim": 64,
+            "layers": 3,
+            "heads": 4,
+            "mlp_ratio": 2
+          }
+        }
+      },
+      "changed_tensors": 32,
+      "optimizer_steps": [
+        8.0
+      ],
+      "scheduler_epoch": 8,
+      "replay": 26,
+      "top5": [
+        {
+          "action": 28,
+          "win": 0.991584300994873,
+          "draw": 5.528378324015648e-07,
+          "loss": 0.00841513741761446,
+          "value": 0.9831691384315491,
+          "policy": 0.0008033484918996692,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 31,
+          "win": 0.9915796518325806,
+          "draw": 7.291484962479444e-07,
+          "loss": 0.008419681340456009,
+          "value": 0.9831599593162537,
+          "policy": 0.01586891897022724,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 16,
+          "win": 0.9912710189819336,
+          "draw": 6.115604378464923e-07,
+          "loss": 0.008728365413844585,
+          "value": 0.9825426340103149,
+          "policy": 0.2771173119544983,
+          "visit_fraction": 0.5,
+          "visits": 4,
+          "search_q": -0.007070824125548825,
+          "search_wdl": [
+            0.4964644303836394,
+            2.9527261702355645e-07,
+            0.5035352545091882
+          ]
+        },
+        {
+          "action": 41,
+          "win": 0.9910634756088257,
+          "draw": 7.771648142806953e-07,
+          "loss": 0.008935743942856789,
+          "value": 0.9821277260780334,
+          "policy": 0.027824103832244873,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 2,
+          "win": 0.9909002780914307,
+          "draw": 6.547532507283904e-07,
+          "loss": 0.009099122136831284,
+          "value": 0.9818011522293091,
+          "policy": 0.00031050763209350407,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        }
+      ]
+    },
+    {
+      "id": "8aa77c0718694810b2f093f141590254",
+      "agent": "A",
+      "games": 2,
+      "updates": 8,
+      "model_config": {
+        "architecture": "cnn",
+        "size": 9,
+        "channels": 48,
+        "blocks": 4,
+        "dim": 64,
+        "layers": 3,
+        "heads": 4,
+        "mlp_ratio": 2
+      },
+      "parameters": 170548,
+      "initialization": {
+        "A": {
+          "kind": "checkpoint",
+          "checkpoint": "12514adca15940bda6a8e5c99375e277",
+          "source_agent": "B",
+          "source_games": 2000,
+          "source_updates": 16000,
+          "model_config": {
+            "architecture": "cnn",
+            "size": 9,
+            "channels": 48,
+            "blocks": 4,
+            "dim": 64,
+            "layers": 3,
+            "heads": 4,
+            "mlp_ratio": 2
+          }
+        },
+        "B": {
+          "kind": "checkpoint",
+          "checkpoint": "46454db0c7f149d7bc855ea369942bc5",
+          "source_agent": "A",
+          "source_games": 2000,
+          "source_updates": 16000,
+          "model_config": {
+            "architecture": "cnn",
+            "size": 9,
+            "channels": 48,
+            "blocks": 4,
+            "dim": 64,
+            "layers": 3,
+            "heads": 4,
+            "mlp_ratio": 2
+          }
+        }
+      },
+      "changed_tensors": 32,
+      "optimizer_steps": [
+        8.0
+      ],
+      "scheduler_epoch": 8,
+      "replay": 27,
+      "top5": [
+        {
+          "action": 4,
+          "win": 0.0009438134729862213,
+          "draw": 8.286066943696824e-09,
+          "loss": 0.9990561604499817,
+          "value": -0.9981123208999634,
+          "policy": 0.004458306822925806,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 48,
+          "win": 0.0009048428619280457,
+          "draw": 7.328911699744367e-09,
+          "loss": 0.9990952014923096,
+          "value": -0.9981903433799744,
+          "policy": 0.008224871940910816,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 31,
+          "win": 0.0008746517705731094,
+          "draw": 6.832088672581449e-09,
+          "loss": 0.9991253018379211,
+          "value": -0.9982506632804871,
+          "policy": 0.013287330977618694,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 44,
+          "win": 0.0008644409826956689,
+          "draw": 7.47797024303054e-09,
+          "loss": 0.9991355538368225,
+          "value": -0.998271107673645,
+          "policy": 0.01115196943283081,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 21,
+          "win": 0.0008529623737558722,
+          "draw": 6.499910831792022e-09,
+          "loss": 0.9991470575332642,
+          "value": -0.9982941150665283,
+          "policy": 0.010842354968190193,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        }
+      ]
+    }
+  ]
+}

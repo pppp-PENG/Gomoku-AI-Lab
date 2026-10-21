@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-21",
+  "sources": {
+    "karesis": {
+      "status": "permitted",
+      "license": "MIT",
+      "license_url": "https://huggingface.co/datasets/Karesis/Gomoku/blob/5cf594efdcddcba688965e3bdcab37f2a89d714b/README.md",
+      "revision": "5cf594efdcddcba688965e3bdcab37f2a89d714b",
+      "format": "complete_games.json; ordered signed zero-based y*15+x actions",
+      "board_sizes": [
+        15
+      ],
+      "rulesets": [
+        "freestyle (inferred from WinePy implementation)"
+      ],
+      "files": [
+        {
+          "path": "raw/karesis/complete_games.json",
+          "url": "https://huggingface.co/datasets/Karesis/Gomoku/resolve/5cf594efdcddcba688965e3bdcab37f2a89d714b/gomoku_dataset_split/sequence/complete_games.json",
+          "sha256": "b2f49e473b6e3f5714b0b194aacaa4d346a6c0200e58a3452197636ed2b55353",
+          "bytes": 139949
+        }
+      ]
+    },
+    "gomoku_party": {
+      "status": "permitted",
+      "license": "CC0-1.0",
+      "license_url": "https://gomokuparty.com/database/",
+      "revision": "gomoku-party-sgf-2 / manifest captured 2026-10-21",
+      "format": "gzip UTF-8 SGF FF4 GM4; linear tree per line",
+      "board_sizes": [
+        15
+      ],
+      "rulesets": [
+        "freestyle",
+        "renju",
+        "swap2",
+        "pente",
+        "ninuki_renju",
+        "caro"
+      ],
+      "files": [
+        {
+          "path": "raw/gomoku_party/gomokuparty-games-2026-09-ff1b4e5256799065.sgf.gz",
+          "url": "https://gomokuparty.com/api/v1/database/archives/gomokuparty-games-2026-09-ff1b4e5256799065.sgf.gz",
+          "sha256": "ff1b4e52567990651530fbe43aabf092b7149cf8da34b2e078a2042bbb44e61d",
+          "bytes": 66321
+        },
+        {
+          "path": "raw/gomoku_party/gomokuparty-games-2026-08-a8bae64137a70f3a.sgf.gz",
+          "url": "https://gomokuparty.com/api/v1/database/archives/gomokuparty-games-2026-08-a8bae64137a70f3a.sgf.gz",
+          "sha256": "a8bae64137a70f3ad1ce7dfa532fbd9f96efb644d655e9f7c3e7942bfc644302",
+          "bytes": 1497
+        }
+      ]
+    },
+    "gomocup": {
+      "status": "blocked",
+      "license": "unknown",
+      "license_url": "https://gomocup.org/results/gomocup-result-2026/",
+      "download_url": "https://gomocup.org/static/tournaments/2026/results/gomocup2026results.zip",
+      "format": "public results ZIP; members unverified; provisional PSQ parser only",
+      "board_sizes": [
+        15,
+        20
+      ],
+      "rulesets": [
+        "freestyle",
+        "standard",
+        "renju",
+        "caro"
+      ],
+      "blocker": "Public download/replay offered; explicit dataset ML-training and redistribution permission not found. No archive acquired; no archive format/count claims.",
+      "files": []
+    },
+    "renjunet": {
+      "status": "blocked",
+      "license": "LicenseRef-RenjuNet-offline-only",
+      "license_url": "https://www.renju.net/game/",
+      "format": "official page offers XML and XML.GZ; internal fields unverified",
+      "board_sizes": [
+        "unverified"
+      ],
+      "rulesets": [
+        "unverified; database includes Renju and Gomoku tournaments"
+      ],
+      "blocker": "Non-commercial OFFLINE database use only; websites/ONLINE systems and modified content prohibited. Shared SFT permission not established; no database downloaded.",
+      "files": []
+    }
+  }
+}

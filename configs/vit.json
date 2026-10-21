@@ -1,0 +1,6 @@
+{
+  "model": {"architecture":"vit","size":9,"channels":48,"blocks":3,"dim":64,"layers":3,"heads":4,"mlp_ratio":2},
+  "seed":42,"games":200,"simulations":32,"parallel_games":4,"batch_size":64,"replay_size":20000,
+  "updates_per_game":4,"learning_rate":0.001,"checkpoint_every":20,"eval_every":40,"device":"auto",
+  "threads":4,"max_hours":2,"disk_budget_gb":4
+}

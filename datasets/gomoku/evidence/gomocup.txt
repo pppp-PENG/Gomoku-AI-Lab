@@ -1,0 +1,339 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-391946-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-391946-1');
+</script>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>
+
+	Gomocup 2026, the 27th tournament (June 5th-7th, 2026) - Gomocup
+
+</title>
+<meta name="keywords" content="Gomocup,Gomoku,Renju,Gomoku AI,Renju AI,artificial intelligence" />
+<meta name="description" content="The official website of Gomocup, the Gomoku/Renju AI tournament." />
+<link href="/static/home/css/default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="outer">
+	<div id="header">
+		<h1><a href="/"><img src="/static/home/images/gomocup_simple_small_white.png" width="300" height="44" alt="Gomocup"></img></a></h1>
+	</div>
+	<div id="menu">
+		<ul>
+            <li class="first"><a href="/news/">
+            
+                News
+            
+            </a></li>   
+			
+                <li><a href="/detail-information/">
+                
+                    Detail Info
+                
+                </a></li>
+			
+                <li><a href="/elo-ratings/">
+                
+                    Elo Ratings
+                
+                </a></li>
+			
+                <li><a href="/results/">
+                
+                    Results
+                
+                </a></li>
+			
+                <li><a href="/download/">
+                
+                    Download
+                
+                </a></li>
+			
+                <li><a href="/links/">
+                
+                    Links
+                
+                </a></li>
+			
+                <li><a href="/enroll/">
+                
+                    Enroll
+                
+                </a></li>
+			
+                <li><a href="/contacts/">
+                
+                    Contacts
+                
+                </a></li>
+			
+		</ul>
+	</div>
+	<div id="content">
+		<div id="primaryContentContainer">
+			<div id="primaryContent">
+				
+
+	<h1>Gomocup 2026, the 27th tournament (June 5th-7th, 2026)</h1>
+	<p>The Gomocup 2026 took place on June the 5th-7th.</p>
+
+<p>There were 4 cloud servers whose configurations were the same:</p>
+
+<ul>
+	<li>Tencent Cloud Servers SA9.8XLARGE64 (Windows Server 2025 Datacenter, x64 32 vCPU (AMD EPYC 9K65), 64GB RAM)</li>
+</ul>
+
+<p>The openings for Gomocup 2026 were chosen by the following people (sorted alphabetically according to last names):</p>
+
+<ul>
+	<li>Alexander Bogatirev - Gomoku player, member of Gomoku Committee RIF, member of organizers committee of Russian Gomoku Championship, winner of Russian Gomoku Cup 2016.</li>
+	<li>Zijun Shu - Gomoku player and AI researcher, contributor of several Gomoku AIs.</li>
+	<li>Qichao Wang - Renju expert, 4 dan, who has done a lot of researches in renju openings, and won the World Correspondence Renju Championship 2019.</li>
+</ul>
+
+<p>Thank you all!</p>
+
+<p>Same as recent years, we prepared 12 openings for every rule.</p>
+
+<ul>
+	<li>Openings for the freestyle (20x20) league:</li>
+</ul>
+
+<p><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle20_12.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle20_12.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle20_12.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle20_12.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle20_11.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle20_11.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle20_11.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle20_11.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle20_10.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle20_10.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle20_10.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle20_10.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle20_9.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle20_9.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle20_9.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle20_9.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle20_8.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle20_8.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle20_8.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle20_8.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle20_7.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle20_7.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle20_7.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle20_7.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle20_6.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle20_6.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle20_6.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle20_6.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle20_5.png" href="/static/tournaments/2026/openings/opening_freestyle20_5.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle20_5.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle20_5.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle20_4.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle20_4.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle20_4.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle20_4.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle20_3.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle20_3.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle20_3.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle20_3.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle20_2.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle20_2.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle20_2.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle20_2.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle20_1.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle20_1.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle20_1.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle20_1.png" width="300" /></a></p>
+
+<ul>
+	<li>Openings for the freestyle (15x15) league:</li>
+</ul>
+
+<p><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle15_12.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle15_12.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle15_12.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle15_12.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle15_11.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle15_11.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle15_11.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle15_11.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle15_10.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle15_10.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle15_10.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle15_10.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle15_9.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle15_9.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle15_9.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle15_9.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle15_8.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle15_8.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle15_8.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle15_8.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle15_7.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle15_7.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle15_7.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle15_7.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle15_6.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle15_6.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle15_6.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle15_6.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle15_5.png" href="/static/tournaments/2026/openings/opening_freestyle15_5.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle15_5.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle15_5.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle15_4.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle15_4.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle15_4.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle15_4.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle15_3.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle15_3.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle15_3.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle15_3.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle15_2.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle15_2.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle15_2.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle15_2.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_freestyle15_1.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_freestyle15_1.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_freestyle15_1.png" height="300" src="/static/tournaments/2026/openings/opening_freestyle15_1.png" width="300" /></a></p>
+
+<ul>
+	<li>Openings for the standard league:</li>
+</ul>
+
+<p><a data-mce-href="/static/tournaments/2026/openings/opening_standard_12.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_standard_12.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_standard_12.png" height="300" src="/static/tournaments/2026/openings/opening_standard_12.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_standard_11.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_standard_11.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_standard_11.png" height="300" src="/static/tournaments/2026/openings/opening_standard_11.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_standard_10.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_standard_10.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_standard_10.png" height="300" src="/static/tournaments/2026/openings/opening_standard_10.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_standard_9.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_standard_9.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_standard_9.png" height="300" src="/static/tournaments/2026/openings/opening_standard_9.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_standard_8.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_standard_8.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_standard_8.png" height="300" src="/static/tournaments/2026/openings/opening_standard_8.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_standard_7.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_standard_7.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_standard_7.png" height="300" src="/static/tournaments/2026/openings/opening_standard_7.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_standard_6.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_standard_6.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_standard_6.png" height="300" src="/static/tournaments/2026/openings/opening_standard_6.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_standard_5.png" href="/static/tournaments/2026/openings/opening_standard_5.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_standard_5.png" height="300" src="/static/tournaments/2026/openings/opening_standard_5.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_standard_4.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_standard_4.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_standard_4.png" height="300" src="/static/tournaments/2026/openings/opening_standard_4.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_standard_3.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_standard_3.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_standard_3.png" height="300" src="/static/tournaments/2026/openings/opening_standard_3.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_standard_2.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_standard_2.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_standard_2.png" height="300" src="/static/tournaments/2026/openings/opening_standard_2.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_standard_1.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_standard_1.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_standard_1.png" height="300" src="/static/tournaments/2026/openings/opening_standard_1.png" width="300" /></a></p>
+
+<ul>
+	<li>Openings for the renju league:</li>
+</ul>
+
+<p><a data-mce-href="/static/tournaments/2026/openings/opening_renju_12.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_renju_12.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_renju_12.png" height="300" src="/static/tournaments/2026/openings/opening_renju_12.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_renju_11.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_renju_11.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_renju_11.png" height="300" src="/static/tournaments/2026/openings/opening_renju_11.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_renju_10.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_renju_10.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_renju_10.png" height="300" src="/static/tournaments/2026/openings/opening_renju_10.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_renju_9.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_renju_9.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_renju_9.png" height="300" src="/static/tournaments/2026/openings/opening_renju_9.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_renju_8.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_renju_8.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_renju_8.png" height="300" src="/static/tournaments/2026/openings/opening_renju_8.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_renju_7.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_renju_7.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_renju_7.png" height="300" src="/static/tournaments/2026/openings/opening_renju_7.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_renju_6.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_renju_6.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_renju_6.png" height="300" src="/static/tournaments/2026/openings/opening_renju_6.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_renju_5.png" href="/static/tournaments/2026/openings/opening_renju_5.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_renju_5.png" height="300" src="/static/tournaments/2026/openings/opening_renju_5.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_renju_4.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_renju_4.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_renju_4.png" height="300" src="/static/tournaments/2026/openings/opening_renju_4.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_renju_3.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_renju_3.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_renju_3.png" height="300" src="/static/tournaments/2026/openings/opening_renju_3.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_renju_2.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_renju_2.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_renju_2.png" height="300" src="/static/tournaments/2026/openings/opening_renju_2.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_renju_1.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_renju_1.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_renju_1.png" height="300" src="/static/tournaments/2026/openings/opening_renju_1.png" width="300" /></a></p>
+
+<ul>
+	<li>Openings for the caro league:</li>
+</ul>
+
+<p><a data-mce-href="/static/tournaments/2026/openings/opening_caro_12.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_caro_12.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_caro_12.png" height="300" src="/static/tournaments/2026/openings/opening_caro_12.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_caro_11.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_caro_11.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_caro_11.png" height="300" src="/static/tournaments/2026/openings/opening_caro_11.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_caro_10.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_caro_10.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_caro_10.png" height="300" src="/static/tournaments/2026/openings/opening_caro_10.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_caro_9.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_caro_9.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_caro_9.png" height="300" src="/static/tournaments/2026/openings/opening_caro_9.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_caro_8.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_caro_8.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_caro_8.png" height="300" src="/static/tournaments/2026/openings/opening_caro_8.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_caro_7.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_caro_7.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_caro_7.png" height="300" src="/static/tournaments/2026/openings/opening_caro_7.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_caro_6.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_caro_6.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_caro_6.png" height="300" src="/static/tournaments/2026/openings/opening_caro_6.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_caro_5.png" href="/static/tournaments/2026/openings/opening_caro_5.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_caro_5.png" height="300" src="/static/tournaments/2026/openings/opening_caro_5.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_caro_4.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_caro_4.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_caro_4.png" height="300" src="/static/tournaments/2026/openings/opening_caro_4.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_caro_3.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_caro_3.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_caro_3.png" height="300" src="/static/tournaments/2026/openings/opening_caro_3.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_caro_2.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_caro_2.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_caro_2.png" height="300" src="/static/tournaments/2026/openings/opening_caro_2.png" width="300" /></a><a data-mce-href="/static/tournaments/2026/openings/opening_caro_1.png" data-mce-style="float: left;" href="/static/tournaments/2026/openings/opening_caro_1.png"><img alt="" data-mce-src="/static/tournaments/2026/openings/opening_caro_1.png" height="300" src="/static/tournaments/2026/openings/opening_caro_1.png" width="300" /></a></p>
+
+<p><strong>What is new?</strong></p>
+
+<ul>
+	<li><strong>Updates</strong>
+
+	<ul>
+		<li>AlphaGomoku (Kozarzewski) - Bugfixes and tuning.</li>
+		<li>ANGEL - Starting from this version, an AlphaGo Zero-like algorithm is adopted, replicating the four optimization points from Chapter 3 of the KataGo paper.</li>
+		<li>DDQK-Conquer - DDQK-Conquer has greatly improved the computing speed, effectively combining C++ and Python, so that the space and speed can be improved and optimized more effectively. It is no longer limited to the traditional alpha-beta pruning algorithm, but further adopts an algorithm similar to NNUE. (This submission was received in 2025, after the official Gomocup 2025 deadline had passed.)</li>
+		<li>Embryo - Refactored quiescence search, better move ordering.</li>
+		<li>Figrid - &alpha;-&beta; engine with NNUE evaluation (via the noru Rust library). Standard search techniques (IID, aspiration, IIR, LMR, TT, qsearch) plus a Pattern4-mini threat cache and continuation history driving move ordering. NNUE evaluation via the noru library. Adds phase-based time management.</li>
+		<li>Kanec - Based on proof numbers. Some improvements to mitigate the drawbacks of this method.</li>
+		<li>Katagomo - The 2026 version is approximately 200 Elo stronger than the 2021 version across all rule sets. In addition, the Caro rule is now supported.</li>
+	</ul>
+	</li>
+	<li><strong>New AIs</strong>
+	<ul>
+		<li>Chloris - developed by Nelly Semenova from Russia. Tournament engine for Standard-15 Gomoku with a custom NNUE evaluation trained for Standard 15x15 play on approximately 3 million positions, iterative-deepening alpha-beta search, and a dedicated tactical layer, including tactical predicates, forcing-move checks, and urgent-threat defense. The combined positional evaluation was tuned through games against stronger engines.</li>
+		<li>Mintaka - developed by JeongHyeon Choi from South Korea. Renju engine written in Rust, currently under development, based on PVS and (temporary) heuristic algorithm.</li>
+		<li>Monas - developed by Guanwu Liu from China. Monas employs a pre-computed pattern matching table for fast threat recognition, combined with Alpha-Beta search; a fallback mechanism is invoked when needed to ensure stable move generation.</li>
+		<li>Olechka - developed by Dima Suraev from Russia. alpha-Beta pruning search with Transposition Table, Zobrist Hashing, Iterative Deepening and partial depth caching. Custom bitwise evaluation optimized for Freestyle rules. Secret heuristics.</li>
+		<li>SkyZero - developed by Sky Cheng from China. SkyZero is a Gomoku AI powered by the Gumbel AlphaZero algorithm.</li>
+		<li>Starpoint - developed by You Huang from China. Starpoint is a Gomoku engine based on Monte Carlo Tree Search and transformer-based evaluation, with Proof-Number Search used for VCT search inside the engine. This submission targets Gomocup 2026 freestyle 15x15 on Windows and is packaged as a rule-specific pbrain executable.</li>
+		<li>TKGomoku - developed by Tae Kim from USA. It uses iterative deepening alpha-beta/PVS-style negamax search, transposition table, threat-aware move ordering, immediate tactical detection, VCF/VCT-style probes, handcrafted line/pattern evaluation, and lightweight NNUE/policy/opening-book files. This release is packaged for Gomocup 2026 with a root-level pbrain executable and static Windows runtime linking.</li>
+		<li>VibeFive - developed by Lu-Chuan Liu from China. VibeFive is a C++ program based on alpha-beta pruning search and a traditional evaluation table. Its development process combines automated AI programming with manual modifications. An LLM agent loop is used for algorithm iteration and parameter tuning. The LLM involved in the development include, but are not limited to, GPT-5.5, Claude opus 4.7, and GLM-5.1.</li>
+	</ul>
+	</li>
+</ul>
+
+<p>The memory limit and AI size limitation are&nbsp;1GB and 256MB, respectively, which is unchanged from Gomocup 2025.</p>
+
+<p>There were 2 freestyle (20x20) groups (i.e., Freestyle-20 1 and 2), 2 freestyle (15x15) groups (i.e., Freestyle-15 1 and 2), 1 fastgame group (Fastgame), 2 standard groups (i.e., Standard 1 and 2), 1 renju group (Renju), and 1 caro group (Caro) in Gomocup 2026. <a href="https://en.wikipedia.org/wiki/Elo_rating_system">Elo rating system</a> is used to evaluate AIs&#39; strength. Time per move/per match was 5s/120s for fastgame, 300s/1000s for final leagues (i.e., Freestyle-20 1, Freestyle-15 1, Standard 1, Renju, and Caro), and 30s/180s for the rest (i.e., Freestyle-20 2, Freestyle-15 2, and Standard 2).</p>
+
+<p>AIs were divided into different freestyle and standard groups according to the placement in the last tournament. For Freestyle-20 2, Freestyle-15 2, and Standard 2, the top 4 AIs will move up to the next group (i.e., Freestyle-20 1, Freestyle-15 1, and Standard 1, respectively). If the top k (k&gt;4) places were all taken by new or updated AIs in a group, then all these k AIs would advance to the next group.</p>
+
+<p>In Fastgame, Freestyle-20 2, Freestyle-15 2, and Standard 2, we do not match every pair of AIs. Instead, for old AIs, we only match every pair of them whose last year&#39;s Elo difference was no more than 400. We still match each brand new/updated AI with all AIs.</p>
+
+<p>The unlimited tournament, which has no hardware constraints, was not held this year, as we received no valid submissions for this league this year.</p>
+
+<p>There were technical difficulties like every year.</p>
+
+<ul>
+	<li>We received a record-breaking number of new submissions this year, which put a significant strain on our testing and validation process. This included verifying that submissions comply with the Gomocup protocol and correctly support their claimed rules. To address this challenge, we introduced a new automated verification tool (currently in beta) to handle these checks. Moving forward, we plan to fully integrate this tool into the submission process to keep the testing workload manageable.</li>
+</ul>
+
+<p><iframe frameborder="0" height="1110" src="/static/tournaments/tables/2026_f20_2.html" width="100%"></iframe></p>
+
+<table border="0" width="100%">
+	<tbody>
+		<tr>
+			<td width="100%"><iframe frameborder="0" height="250" src="/static/tournaments/2026/results/freestyle20_2/_result.txt" width="100%"></iframe></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>VIBEFIVE, WHOSE, EGOZERO, and TITO&nbsp;were the top 4 in the freestyle (20x20) 2 league and advanced to freestyle (20x20) 1.</p>
+
+<p><iframe frameborder="0" height="440" src="/static/tournaments/tables/2026_f20_1.html" width="100%"></iframe></p>
+
+<table border="0" width="100%">
+	<tbody>
+		<tr>
+			<td width="100%"><iframe frameborder="0" height="250" src="/static/tournaments/2026/results/freestyle20_1/_result.txt" width="100%"></iframe></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>RAPFI retained championship title in the freestyle (20x20) league this year. The new KATAGOMO&nbsp; was the second, and the updated ALPHAGOMOKU (Kozarzewski) was the third. VIBEFIVE concluded its debut appearance in 9th place.</p>
+
+<p><iframe frameborder="0" height="900" src="/static/tournaments/tables/2026_f15_2.html" width="100%"></iframe></p>
+
+<table border="0" width="100%">
+	<tbody>
+		<tr>
+			<td width="100%"><iframe frameborder="0" height="250" src="/static/tournaments/2026/results/freestyle15_2/_result.txt" width="100%"></iframe></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>The top 4 in the freestyle (15x15) 2 league this year were all new AIs&mdash;KATAGOMO, VIBEFIVE, STARPOINT, and SKYZERO&mdash;and they all advanced to freestyle (15x15) 1.</p>
+
+<p><iframe frameborder="0" height="340" src="/static/tournaments/tables/2026_f15_1.html" width="100%"></iframe></p>
+
+<table border="0" width="100%">
+	<tbody>
+		<tr>
+			<td width="100%"><iframe frameborder="0" height="250" src="/static/tournaments/2026/results/freestyle15_1/_result.txt" width="100%"></iframe></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>The top two AIs in the freestyle (15x15) league this year were very close. RAPFI won the league, and KATAGOMO took second place by a margin of just 9 Elo. ALPHAGOMOKU (Kozarzewski) came in third. The three brand-new AIs (VIBEFIVE,&nbsp;STARPOINT, and SKYZERO) finished in 6th, 8th, and 9th place, respectively.</p>
+
+<p><iframe frameborder="0" height="1370" src="/static/tournaments/tables/2026_f.html" width="100%"></iframe></p>
+
+<table border="0" width="100%">
+	<tbody>
+		<tr>
+			<td width="100%"><iframe frameborder="0" height="250" src="/static/tournaments/2026/results/fastgame/_result.txt" width="100%"></iframe></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>RAPFI won the fastgame league, with KATAGOMO taking second place and ALPHAGOMOKU (Kozarzewski) finishing third.</p>
+
+<p><iframe frameborder="0" height="380" src="/static/tournaments/tables/2026_s2.html" width="100%"></iframe></p>
+
+<table border="0" width="100%">
+	<tbody>
+		<tr>
+			<td width="100%"><iframe frameborder="0" height="250" src="/static/tournaments/2026/results/standard2/_result.txt" width="100%"></iframe></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>CHLORIS, XOXO, SLOWRENJU, and TITO were the top 4 in the standard 2 league and advanced to standard 1. Notably, the brand-new AI CHLORIS finished the league with an amazing undefeated record.</p>
+
+<p><iframe frameborder="0" height="350" src="/static/tournaments/tables/2026_s1.html" width="100%"></iframe></p>
+
+<table border="0" width="100%">
+	<tbody>
+		<tr>
+			<td width="100%"><iframe frameborder="0" height="250" src="/static/tournaments/2026/results/standard1/_result.txt" width="100%"></iframe></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>RAPFI won the standard league, with KATAGOMO taking second place and ALPHAGOMOKU (Kozarzewski) finishing third. The debuting CHLORIS secured a strong fourth place.</p>
+
+<p><iframe frameborder="0" height="460" src="/static/tournaments/tables/2026_r.html" width="100%"></iframe></p>
+
+<table border="0" width="100%">
+	<tbody>
+		<tr>
+			<td width="100%"><iframe frameborder="0" height="240" src="/static/tournaments/2026/results/renju/_result.txt" width="100%"></iframe></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>The winner of the renju league was RAPFI. KATAGOMO took the second place. The third was ALPHAGOMOKU (Kozarzewski). The brand-new SKYZERO showed reasonable strength but timed out in over 10% of its games, leaving it unranked.</p>
+
+<p><iframe frameborder="0" height="230" src="/static/tournaments/tables/2026_c.html" width="100%"></iframe></p>
+
+<table border="0" width="100%">
+	<tbody>
+		<tr>
+			<td width="100%"><iframe frameborder="0" height="240" src="/static/tournaments/2026/results/caro/_result.txt" width="100%"></iframe></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>The top three places in the caro league stayed the same as last year. The winner of this league&nbsp;was ALPHAGOMOKU (Kozarzewski). JAX took the second place. EMBRYO took the third.</p>
+
+<p>You can download complete results and openings&nbsp;<a data-mce-href="/static/tournaments/2026/results/gomocup2026results.zip" href="/static/tournaments/2026/results/gomocup2026results.zip">here</a>.</p>
+
+
+			</div>
+		</div>
+		<div id="secondaryContent">
+			<h3>News</h3>
+			<ul>
+				
+				<li>
+				<a href="/news/gomocup-2026-announcement/">Gomocup 2026 Announcement</a>
+				<br/>
+				Apr 6, 2026</p>
+				</li>
+				
+				<li>
+				<a href="/news/call-for-sponsors/">Call for Sponsors</a>
+				<br/>
+				Apr 6, 2026</p>
+				</li>
+				
+				<li>
+				<a href="/news/gomocup-2025-announcement/">Gomocup 2025 Announcement</a>
+				<br/>
+				Mar 7, 2025</p>
+				</li>
+				
+				<li>
+				<a href="/news/gomocup-2024-announcement/">Gomocup 2024 Announcement</a>
+				<br/>
+				Feb 19, 2024</p>
+				</li>
+				
+				<li>
+				<a href="/news/gomocup-2023-announcement/">Gomocup 2023 Announcement</a>
+				<br/>
+				Mar 19, 2023</p>
+				</li>
+				
+			</ul>
+			<div class="xbg"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="footer">
+		<p>Copyright &copy; Gomocup. Theme based on <a href="http://templated.co/genericblue">GenericBlue</a> designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+	</div>
+</div>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"6a821160c9fd43f1b5734ea5e41d159f","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

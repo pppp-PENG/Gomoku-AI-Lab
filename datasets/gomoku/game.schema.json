@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/gomoku-game-v1.schema.json",
+  "title": "Gomoku normalized complete game v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "source",
+    "game_id",
+    "board_size",
+    "ruleset",
+    "license",
+    "winner",
+    "termination",
+    "result_origin",
+    "game_hash",
+    "split",
+    "provenance",
+    "aliases",
+    "metadata",
+    "moves"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "source": {
+      "enum": [
+        "karesis",
+        "gomoku_party",
+        "gomocup",
+        "renjunet"
+      ]
+    },
+    "game_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "board_size": {
+      "const": 15
+    },
+    "ruleset": {
+      "enum": [
+        "freestyle",
+        "standard",
+        "renju",
+        "swap2",
+        "caro",
+        "pente",
+        "ninuki_renju"
+      ]
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1
+    },
+    "winner": {
+      "enum": [
+        "black",
+        "white",
+        "draw"
+      ]
+    },
+    "termination": {
+      "enum": [
+        "board",
+        "resignation",
+        "timeout",
+        "agreed_draw"
+      ]
+    },
+    "result_origin": {
+      "type": "string"
+    },
+    "game_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "split": {
+      "enum": [
+        "train",
+        "validation",
+        "test"
+      ]
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "source_url",
+        "sha256",
+        "license_url"
+      ],
+      "properties": {
+        "source_url": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "license_url": {
+          "type": "string"
+        }
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "game_id",
+          "license",
+          "provenance"
+        ]
+      }
+    },
+    "metadata": {
+      "type": "object"
+    },
+    "moves": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 225,
+      "items": {
+        "type": "object",
+        "required": [
+          "ply",
+          "x",
+          "y",
+          "color",
+          "action"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "ply": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 224
+          },
+          "x": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 14
+          },
+          "y": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 14
+          },
+          "action": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 224
+          },
+          "color": {
+            "enum": [
+              "black",
+              "white"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

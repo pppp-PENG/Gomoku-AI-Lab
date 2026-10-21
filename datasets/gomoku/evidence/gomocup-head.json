@@ -1,0 +1,8 @@
+{
+  "url": "https://gomocup.org/static/tournaments/2026/results/gomocup2026results.zip",
+  "method": "HEAD",
+  "status": 200,
+  "content_type": "application/zip",
+  "content_length": "76001590",
+  "archive_body_downloaded": false
+}

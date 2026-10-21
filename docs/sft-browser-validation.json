@@ -1,0 +1,1337 @@
+{
+  "data": "D:\\codes\\Projects\\Gomoku AI Lab\\.test-runs\\sft-browser-20261019",
+  "demonstrations": [
+    {
+      "id": "52430b45f05549a180794a5898f0752c",
+      "created": 1792415377.8986425,
+      "schema": 1,
+      "name": "网页验收 · 白棋获胜",
+      "source": "human",
+      "size": 9,
+      "connect": 5,
+      "rules": "freestyle-v1",
+      "moves": [
+        72,
+        0,
+        73,
+        1,
+        54,
+        2,
+        55,
+        3,
+        63,
+        4
+      ],
+      "board": [
+        [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "to_play": 1,
+      "winner": -1,
+      "terminal": true
+    },
+    {
+      "id": "e5309604a6e84a009daea0b2b368c754",
+      "created": 1792415343.2375858,
+      "schema": 1,
+      "name": "网页验收 · 黑白双方示范",
+      "source": "human",
+      "size": 9,
+      "connect": 5,
+      "rules": "freestyle-v1",
+      "moves": [
+        0,
+        9,
+        1,
+        10,
+        2,
+        11,
+        3,
+        12,
+        4
+      ],
+      "board": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "to_play": -1,
+      "winner": 1,
+      "terminal": true
+    }
+  ],
+  "experiments": [
+    {
+      "id": "7c535964f5594152bf41caaadfeb36ff",
+      "config": {
+        "kind": "sft",
+        "model": {
+          "architecture": "cnn",
+          "size": 9,
+          "channels": 16,
+          "blocks": 1,
+          "dim": 64,
+          "layers": 3,
+          "heads": 4,
+          "mlp_ratio": 2
+        },
+        "initial_checkpoint": "7bad29d04aaa4ec4bb376563fc893ecd",
+        "dataset_ids": [
+          "52430b45f05549a180794a5898f0752c",
+          "e5309604a6e84a009daea0b2b368c754"
+        ],
+        "epochs": 2,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "value_weight": 1,
+        "validation_fraction": 0.2,
+        "augment": true,
+        "seed": 42,
+        "checkpoint_every": 1,
+        "device": "auto",
+        "threads": 4,
+        "max_hours": 0.01,
+        "disk_budget_gb": 4
+      },
+      "status": "completed",
+      "metrics": [
+        {
+          "step": 4,
+          "created": 1792415752.1762998,
+          "policy_loss": 4.010633277893066,
+          "value_loss": 1.1105120420455932,
+          "loss": 5.121145534515381,
+          "accuracy": 0.0,
+          "val_policy_loss": 3.952888117896186,
+          "val_value_loss": 1.098933630519443,
+          "val_loss": 5.051821655697292,
+          "val_accuracy": 0.0,
+          "epoch": 2.0,
+          "updates": 4,
+          "completed_epochs": 2,
+          "train_samples": 10,
+          "validation_samples": 9,
+          "samples_seen": 20,
+          "seconds": 0.8006105999993451,
+          "device": "cuda",
+          "learning_rate": 0.0009980014995000627,
+          "samples_per_second": 26.336810406717515,
+          "gpu_memory_mb": 64.376953125,
+          "rss_mb": 1367.59375
+        }
+      ],
+      "checkpoints": [
+        {
+          "id": "a2ec0556a9014e15bbb7a2c9cd5d5497",
+          "created": 1792415752.1864412,
+          "experiment": "7c535964f5594152bf41caaadfeb36ff",
+          "model_config": {
+            "architecture": "cnn",
+            "size": 9,
+            "channels": 16,
+            "blocks": 1,
+            "dim": 64,
+            "layers": 3,
+            "heads": 4,
+            "mlp_ratio": 2
+          },
+          "rules": "freestyle-v1",
+          "config": {
+            "kind": "sft",
+            "model": {
+              "architecture": "cnn",
+              "size": 9,
+              "channels": 16,
+              "blocks": 1,
+              "dim": 64,
+              "layers": 3,
+              "heads": 4,
+              "mlp_ratio": 2
+            },
+            "initial_checkpoint": "7bad29d04aaa4ec4bb376563fc893ecd",
+            "dataset_ids": [
+              "52430b45f05549a180794a5898f0752c",
+              "e5309604a6e84a009daea0b2b368c754"
+            ],
+            "epochs": 2,
+            "batch_size": 8,
+            "learning_rate": 0.001,
+            "weight_decay": 0.0001,
+            "value_weight": 1,
+            "validation_fraction": 0.2,
+            "augment": true,
+            "seed": 42,
+            "checkpoint_every": 1,
+            "device": "auto",
+            "threads": 4,
+            "max_hours": 0.01,
+            "disk_budget_gb": 4
+          },
+          "games": 2,
+          "updates": 4,
+          "training_seconds": 0.8048622999995132,
+          "agent": null,
+          "pair_id": null,
+          "initialization": {
+            "A": {
+              "kind": "checkpoint",
+              "checkpoint": "7bad29d04aaa4ec4bb376563fc893ecd",
+              "source_agent": null,
+              "source_games": 2,
+              "source_updates": 6,
+              "model_config": {
+                "architecture": "cnn",
+                "size": 9,
+                "channels": 16,
+                "blocks": 1,
+                "dim": 64,
+                "layers": 3,
+                "heads": 4,
+                "mlp_ratio": 2
+              }
+            }
+          },
+          "parameters": 5460,
+          "estimated_flops": 819680,
+          "training_kind": "sft",
+          "sft": {
+            "completed_epochs": 2,
+            "train_games": 1,
+            "validation_games": 1,
+            "train_samples": 10,
+            "validation_samples": 9,
+            "samples_seen": 20
+          },
+          "top5": [
+            {
+              "action": 54,
+              "win": 0.3254537284374237,
+              "draw": 0.33461204171180725,
+              "loss": 0.33993425965309143,
+              "value": -0.014480531215667725,
+              "policy": 0.012425439432263374,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 36,
+              "win": 0.3254094123840332,
+              "draw": 0.33462288975715637,
+              "loss": 0.33996763825416565,
+              "value": -0.014558225870132446,
+              "policy": 0.012818845920264721,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 45,
+              "win": 0.32540464401245117,
+              "draw": 0.3347344696521759,
+              "loss": 0.3398608863353729,
+              "value": -0.014456242322921753,
+              "policy": 0.012818845920264721,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 46,
+              "win": 0.3252611458301544,
+              "draw": 0.3347479999065399,
+              "loss": 0.33999085426330566,
+              "value": -0.014729708433151245,
+              "policy": 0.010589857585728168,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 59,
+              "win": 0.32519641518592834,
+              "draw": 0.33491480350494385,
+              "loss": 0.33988872170448303,
+              "value": -0.014692306518554688,
+              "policy": 0.008257551118731499,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f0ffe9f95ad34959a35c1c3878d0fcdf",
+      "config": {
+        "kind": "sft",
+        "model": {
+          "architecture": "cnn",
+          "size": 9,
+          "channels": 16,
+          "blocks": 1,
+          "dim": 64,
+          "layers": 3,
+          "heads": 4,
+          "mlp_ratio": 2
+        },
+        "initial_checkpoint": "7bad29d04aaa4ec4bb376563fc893ecd",
+        "dataset_ids": [
+          "52430b45f05549a180794a5898f0752c",
+          "e5309604a6e84a009daea0b2b368c754"
+        ],
+        "epochs": 1,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "value_weight": 1,
+        "validation_fraction": 0.2,
+        "augment": true,
+        "seed": 42,
+        "checkpoint_every": 1,
+        "device": "auto",
+        "threads": 4,
+        "max_hours": 0.01,
+        "disk_budget_gb": 4.0
+      },
+      "status": "completed",
+      "metrics": [
+        {
+          "step": 2,
+          "created": 1792415480.3113995,
+          "policy_loss": 3.965598297119141,
+          "value_loss": 1.1171708583831788,
+          "loss": 5.0827690124511715,
+          "accuracy": 0.3,
+          "val_policy_loss": 4.003127627902561,
+          "val_value_loss": 1.1120955281787448,
+          "val_loss": 5.115223036872016,
+          "val_accuracy": 0.0,
+          "epoch": 1.0,
+          "updates": 2,
+          "completed_epochs": 1,
+          "train_samples": 10,
+          "validation_samples": 9,
+          "samples_seen": 10,
+          "seconds": 0.41629780000221217,
+          "device": "cuda",
+          "learning_rate": 0.0009990002500000002,
+          "samples_per_second": 24.02094818847106,
+          "gpu_memory_mb": 64.3193359375,
+          "rss_mb": 1369.046875
+        }
+      ],
+      "checkpoints": [
+        {
+          "id": "4fbe7414d9c24ac58607c8577bdefc28",
+          "created": 1792415480.3208227,
+          "experiment": "f0ffe9f95ad34959a35c1c3878d0fcdf",
+          "model_config": {
+            "architecture": "cnn",
+            "size": 9,
+            "channels": 16,
+            "blocks": 1,
+            "dim": 64,
+            "layers": 3,
+            "heads": 4,
+            "mlp_ratio": 2
+          },
+          "rules": "freestyle-v1",
+          "config": {
+            "kind": "sft",
+            "model": {
+              "architecture": "cnn",
+              "size": 9,
+              "channels": 16,
+              "blocks": 1,
+              "dim": 64,
+              "layers": 3,
+              "heads": 4,
+              "mlp_ratio": 2
+            },
+            "initial_checkpoint": "7bad29d04aaa4ec4bb376563fc893ecd",
+            "dataset_ids": [
+              "52430b45f05549a180794a5898f0752c",
+              "e5309604a6e84a009daea0b2b368c754"
+            ],
+            "epochs": 1,
+            "batch_size": 8,
+            "learning_rate": 0.001,
+            "weight_decay": 0.0001,
+            "value_weight": 1,
+            "validation_fraction": 0.2,
+            "augment": true,
+            "seed": 42,
+            "checkpoint_every": 1,
+            "device": "auto",
+            "threads": 4,
+            "max_hours": 0.01,
+            "disk_budget_gb": 4.0
+          },
+          "games": 2,
+          "updates": 2,
+          "training_seconds": 0.42091939999954775,
+          "agent": null,
+          "pair_id": null,
+          "initialization": {
+            "A": {
+              "kind": "checkpoint",
+              "checkpoint": "7bad29d04aaa4ec4bb376563fc893ecd",
+              "source_agent": null,
+              "source_games": 2,
+              "source_updates": 6,
+              "model_config": {
+                "architecture": "cnn",
+                "size": 9,
+                "channels": 16,
+                "blocks": 1,
+                "dim": 64,
+                "layers": 3,
+                "heads": 4,
+                "mlp_ratio": 2
+              }
+            }
+          },
+          "parameters": 5460,
+          "estimated_flops": 819680,
+          "training_kind": "sft",
+          "sft": {
+            "completed_epochs": 1,
+            "train_games": 1,
+            "validation_games": 1,
+            "train_samples": 10,
+            "validation_samples": 9,
+            "samples_seen": 10
+          },
+          "top5": [
+            {
+              "action": 54,
+              "win": 0.33403295278549194,
+              "draw": 0.34115391969680786,
+              "loss": 0.32481303811073303,
+              "value": 0.009219914674758911,
+              "policy": 0.011977635324001312,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 36,
+              "win": 0.3339136242866516,
+              "draw": 0.3411855399608612,
+              "loss": 0.3249008357524872,
+              "value": 0.009012788534164429,
+              "policy": 0.012331759557127953,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 45,
+              "win": 0.33387741446495056,
+              "draw": 0.3412800133228302,
+              "loss": 0.32484254240989685,
+              "value": 0.009034872055053711,
+              "policy": 0.012331759557127953,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 27,
+              "win": 0.33377715945243835,
+              "draw": 0.3413447141647339,
+              "loss": 0.32487809658050537,
+              "value": 0.008899062871932983,
+              "policy": 0.012331759557127953,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 11,
+              "win": 0.3337658643722534,
+              "draw": 0.34128838777542114,
+              "loss": 0.32494571805000305,
+              "value": 0.008820146322250366,
+              "policy": 0.008777707815170288,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1fb0fce30af949c791a2a0139f97e327",
+      "config": {
+        "kind": "sft",
+        "model": {
+          "architecture": "cnn",
+          "size": 9,
+          "channels": 16,
+          "blocks": 1,
+          "dim": 64,
+          "layers": 3,
+          "heads": 4,
+          "mlp_ratio": 2
+        },
+        "initial_checkpoint": null,
+        "dataset_ids": [
+          "52430b45f05549a180794a5898f0752c",
+          "e5309604a6e84a009daea0b2b368c754"
+        ],
+        "epochs": 3,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "value_weight": 1,
+        "validation_fraction": 0.2,
+        "augment": true,
+        "seed": 42,
+        "checkpoint_every": 1,
+        "device": "auto",
+        "threads": 4,
+        "max_hours": 0.01,
+        "disk_budget_gb": 4.0
+      },
+      "status": "completed",
+      "metrics": [
+        {
+          "step": 2,
+          "created": 1792415388.4976528,
+          "policy_loss": 4.473743343353272,
+          "value_loss": 1.1685759544372558,
+          "loss": 5.642319297790527,
+          "accuracy": 0.0,
+          "val_policy_loss": 4.3466165860493975,
+          "val_value_loss": 1.1590228080749512,
+          "val_loss": 5.5056395000881615,
+          "val_accuracy": 0.0,
+          "epoch": 1.0,
+          "updates": 2,
+          "completed_epochs": 1,
+          "train_samples": 10,
+          "validation_samples": 9,
+          "samples_seen": 10,
+          "seconds": 0.41352349999942817,
+          "device": "cuda",
+          "learning_rate": 0.0009990002500000002,
+          "samples_per_second": 24.182153522236035,
+          "gpu_memory_mb": 64.3193359375,
+          "rss_mb": 1367.70703125
+        },
+        {
+          "step": 4,
+          "created": 1792415388.5227666,
+          "policy_loss": 4.3613580703735355,
+          "value_loss": 1.1452886581420898,
+          "loss": 5.506646919250488,
+          "accuracy": 0.0,
+          "val_policy_loss": 4.249754905700684,
+          "val_value_loss": 1.1418139537175496,
+          "val_loss": 5.391568660736084,
+          "val_accuracy": 0.0,
+          "epoch": 2.0,
+          "updates": 4,
+          "completed_epochs": 2,
+          "train_samples": 10,
+          "validation_samples": 9,
+          "samples_seen": 20,
+          "seconds": 0.43866820000039297,
+          "device": "cuda",
+          "learning_rate": 0.0009980014995000627,
+          "samples_per_second": 45.5921924281462,
+          "gpu_memory_mb": 64.37060546875,
+          "rss_mb": 1368.42578125
+        },
+        {
+          "step": 6,
+          "created": 1792415388.547873,
+          "policy_loss": 4.17134952545166,
+          "value_loss": 1.1307926654815674,
+          "loss": 5.302141952514648,
+          "accuracy": 0.1,
+          "val_policy_loss": 4.182132032182482,
+          "val_value_loss": 1.1263221899668376,
+          "val_loss": 5.308454195658366,
+          "val_accuracy": 0.0,
+          "epoch": 3.0,
+          "updates": 6,
+          "completed_epochs": 3,
+          "train_samples": 10,
+          "validation_samples": 9,
+          "samples_seen": 30,
+          "seconds": 0.46376779999991413,
+          "device": "cuda",
+          "learning_rate": 0.0009970037475009377,
+          "samples_per_second": 64.6872093118533,
+          "gpu_memory_mb": 64.37060546875,
+          "rss_mb": 1368.48046875
+        }
+      ],
+      "checkpoints": [
+        {
+          "id": "7bad29d04aaa4ec4bb376563fc893ecd",
+          "created": 1792415388.5561802,
+          "experiment": "1fb0fce30af949c791a2a0139f97e327",
+          "model_config": {
+            "architecture": "cnn",
+            "size": 9,
+            "channels": 16,
+            "blocks": 1,
+            "dim": 64,
+            "layers": 3,
+            "heads": 4,
+            "mlp_ratio": 2
+          },
+          "rules": "freestyle-v1",
+          "config": {
+            "kind": "sft",
+            "model": {
+              "architecture": "cnn",
+              "size": 9,
+              "channels": 16,
+              "blocks": 1,
+              "dim": 64,
+              "layers": 3,
+              "heads": 4,
+              "mlp_ratio": 2
+            },
+            "initial_checkpoint": null,
+            "dataset_ids": [
+              "52430b45f05549a180794a5898f0752c",
+              "e5309604a6e84a009daea0b2b368c754"
+            ],
+            "epochs": 3,
+            "batch_size": 8,
+            "learning_rate": 0.001,
+            "weight_decay": 0.0001,
+            "value_weight": 1,
+            "validation_fraction": 0.2,
+            "augment": true,
+            "seed": 42,
+            "checkpoint_every": 1,
+            "device": "auto",
+            "threads": 4,
+            "max_hours": 0.01,
+            "disk_budget_gb": 4.0
+          },
+          "games": 2,
+          "updates": 6,
+          "training_seconds": 0.46717179999905056,
+          "agent": null,
+          "pair_id": null,
+          "initialization": {
+            "A": {
+              "kind": "random",
+              "seed": 42,
+              "model_config": {
+                "architecture": "cnn",
+                "size": 9,
+                "channels": 16,
+                "blocks": 1,
+                "dim": 64,
+                "layers": 3,
+                "heads": 4,
+                "mlp_ratio": 2
+              }
+            }
+          },
+          "parameters": 5460,
+          "estimated_flops": 819680,
+          "training_kind": "sft",
+          "sft": {
+            "completed_epochs": 3,
+            "train_games": 1,
+            "validation_games": 1,
+            "train_samples": 10,
+            "validation_samples": 9,
+            "samples_seen": 30
+          },
+          "top5": [
+            {
+              "action": 55,
+              "win": 0.3430822491645813,
+              "draw": 0.3475744426250458,
+              "loss": 0.30934324860572815,
+              "value": 0.03373900055885315,
+              "policy": 0.010983922518789768,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 0,
+              "win": 0.34303849935531616,
+              "draw": 0.34732159972190857,
+              "loss": 0.30963990092277527,
+              "value": 0.033398598432540894,
+              "policy": 0.01691480726003647,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 54,
+              "win": 0.34303799271583557,
+              "draw": 0.3473769724369049,
+              "loss": 0.30958497524261475,
+              "value": 0.033453017473220825,
+              "policy": 0.0113089419901371,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 46,
+              "win": 0.34295380115509033,
+              "draw": 0.34752222895622253,
+              "loss": 0.30952396988868713,
+              "value": 0.0334298312664032,
+              "policy": 0.011245300062000751,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 45,
+              "win": 0.3428741991519928,
+              "draw": 0.34748944640159607,
+              "loss": 0.3096364140510559,
+              "value": 0.03323778510093689,
+              "policy": 0.011482920497655869,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            }
+          ]
+        },
+        {
+          "id": "089f5410191d4bb39dd16338c7574dda",
+          "created": 1792415388.5305188,
+          "experiment": "1fb0fce30af949c791a2a0139f97e327",
+          "model_config": {
+            "architecture": "cnn",
+            "size": 9,
+            "channels": 16,
+            "blocks": 1,
+            "dim": 64,
+            "layers": 3,
+            "heads": 4,
+            "mlp_ratio": 2
+          },
+          "rules": "freestyle-v1",
+          "config": {
+            "kind": "sft",
+            "model": {
+              "architecture": "cnn",
+              "size": 9,
+              "channels": 16,
+              "blocks": 1,
+              "dim": 64,
+              "layers": 3,
+              "heads": 4,
+              "mlp_ratio": 2
+            },
+            "initial_checkpoint": null,
+            "dataset_ids": [
+              "52430b45f05549a180794a5898f0752c",
+              "e5309604a6e84a009daea0b2b368c754"
+            ],
+            "epochs": 3,
+            "batch_size": 8,
+            "learning_rate": 0.001,
+            "weight_decay": 0.0001,
+            "value_weight": 1,
+            "validation_fraction": 0.2,
+            "augment": true,
+            "seed": 42,
+            "checkpoint_every": 1,
+            "device": "auto",
+            "threads": 4,
+            "max_hours": 0.01,
+            "disk_budget_gb": 4.0
+          },
+          "games": 2,
+          "updates": 4,
+          "training_seconds": 0.4419263999989198,
+          "agent": null,
+          "pair_id": null,
+          "initialization": {
+            "A": {
+              "kind": "random",
+              "seed": 42,
+              "model_config": {
+                "architecture": "cnn",
+                "size": 9,
+                "channels": 16,
+                "blocks": 1,
+                "dim": 64,
+                "layers": 3,
+                "heads": 4,
+                "mlp_ratio": 2
+              }
+            }
+          },
+          "parameters": 5460,
+          "estimated_flops": 819680,
+          "training_kind": "sft",
+          "sft": {
+            "completed_epochs": 2,
+            "train_games": 1,
+            "validation_games": 1,
+            "train_samples": 10,
+            "validation_samples": 9,
+            "samples_seen": 20
+          },
+          "top5": [
+            {
+              "action": 55,
+              "win": 0.34782668948173523,
+              "draw": 0.3538123667240143,
+              "loss": 0.29836100339889526,
+              "value": 0.049465686082839966,
+              "policy": 0.01124025322496891,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 46,
+              "win": 0.3478209972381592,
+              "draw": 0.3538684844970703,
+              "loss": 0.2983105480670929,
+              "value": 0.049510449171066284,
+              "policy": 0.011642550118267536,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 0,
+              "win": 0.3478001058101654,
+              "draw": 0.3538602292537689,
+              "loss": 0.2983396351337433,
+              "value": 0.04946047067642212,
+              "policy": 0.01434649620205164,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 54,
+              "win": 0.3477798104286194,
+              "draw": 0.3538516163825989,
+              "loss": 0.29836854338645935,
+              "value": 0.049411267042160034,
+              "policy": 0.009659847244620323,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 72,
+              "win": 0.34775641560554504,
+              "draw": 0.3538285791873932,
+              "loss": 0.29841500520706177,
+              "value": 0.049341410398483276,
+              "policy": 0.01291806809604168,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            }
+          ]
+        },
+        {
+          "id": "3ae270838c7b43ff81f9c1b0d4c0f37e",
+          "created": 1792415388.508566,
+          "experiment": "1fb0fce30af949c791a2a0139f97e327",
+          "model_config": {
+            "architecture": "cnn",
+            "size": 9,
+            "channels": 16,
+            "blocks": 1,
+            "dim": 64,
+            "layers": 3,
+            "heads": 4,
+            "mlp_ratio": 2
+          },
+          "rules": "freestyle-v1",
+          "config": {
+            "kind": "sft",
+            "model": {
+              "architecture": "cnn",
+              "size": 9,
+              "channels": 16,
+              "blocks": 1,
+              "dim": 64,
+              "layers": 3,
+              "heads": 4,
+              "mlp_ratio": 2
+            },
+            "initial_checkpoint": null,
+            "dataset_ids": [
+              "52430b45f05549a180794a5898f0752c",
+              "e5309604a6e84a009daea0b2b368c754"
+            ],
+            "epochs": 3,
+            "batch_size": 8,
+            "learning_rate": 0.001,
+            "weight_decay": 0.0001,
+            "value_weight": 1,
+            "validation_fraction": 0.2,
+            "augment": true,
+            "seed": 42,
+            "checkpoint_every": 1,
+            "device": "auto",
+            "threads": 4,
+            "max_hours": 0.01,
+            "disk_budget_gb": 4.0
+          },
+          "games": 2,
+          "updates": 2,
+          "training_seconds": 0.4172915999988618,
+          "agent": null,
+          "pair_id": null,
+          "initialization": {
+            "A": {
+              "kind": "random",
+              "seed": 42,
+              "model_config": {
+                "architecture": "cnn",
+                "size": 9,
+                "channels": 16,
+                "blocks": 1,
+                "dim": 64,
+                "layers": 3,
+                "heads": 4,
+                "mlp_ratio": 2
+              }
+            }
+          },
+          "parameters": 5460,
+          "estimated_flops": 819680,
+          "training_kind": "sft",
+          "sft": {
+            "completed_epochs": 1,
+            "train_games": 1,
+            "validation_games": 1,
+            "train_samples": 10,
+            "validation_samples": 9,
+            "samples_seen": 10
+          },
+          "top5": [
+            {
+              "action": 72,
+              "win": 0.356120228767395,
+              "draw": 0.35981231927871704,
+              "loss": 0.2840674817562103,
+              "value": 0.07205274701118469,
+              "policy": 0.011354195885360241,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 8,
+              "win": 0.3559909760951996,
+              "draw": 0.3601129651069641,
+              "loss": 0.2838960886001587,
+              "value": 0.0720948874950409,
+              "policy": 0.018217725679278374,
+              "visit_fraction": 0.25,
+              "visits": 2,
+              "search_q": -0.00010131299495697021,
+              "search_wdl": [
+                0.3198162913322449,
+                0.3602661192417145,
+                0.31991760432720184
+              ]
+            },
+            {
+              "action": 6,
+              "win": 0.3559782803058624,
+              "draw": 0.36001816391944885,
+              "loss": 0.2840035855770111,
+              "value": 0.07197469472885132,
+              "policy": 0.01564246416091919,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 0,
+              "win": 0.3559691309928894,
+              "draw": 0.36002880334854126,
+              "loss": 0.28400206565856934,
+              "value": 0.07196706533432007,
+              "policy": 0.011565650813281536,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            },
+            {
+              "action": 46,
+              "win": 0.35590019822120667,
+              "draw": 0.3600479066371918,
+              "loss": 0.2840518355369568,
+              "value": 0.07184836268424988,
+              "policy": 0.01188195776194334,
+              "visit_fraction": 0.0,
+              "visits": 0,
+              "search_q": null,
+              "search_wdl": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "id": "72b55bdb6b4d42d188fbd7c09d2236f0",
+      "created": 1792415551.2707937,
+      "size": 9,
+      "moves": [
+        40,
+        2
+      ],
+      "checkpoint": "4fbe7414d9c24ac58607c8577bdefc28",
+      "human": 1,
+      "simulations": 8,
+      "revision": 2,
+      "parent": null,
+      "connect": 5,
+      "rules": "freestyle-v1",
+      "board": [
+        [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "to_play": 1,
+      "winner": null,
+      "terminal": false
+    }
+  ],
+  "checks": {
+    "decline_did_not_save": true,
+    "repeated_save_idempotent": true,
+    "draft_approval_survives_reload": true
+  }
+}

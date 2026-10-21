@@ -1,0 +1,606 @@
+{
+  "health": {
+    "status": "ok",
+    "cuda": true,
+    "cpu_percent": 0.0,
+    "memory_percent": 86.2,
+    "server_rss_mb": 531.1875,
+    "inference_device": "cpu",
+    "schema": 1
+  },
+  "games": [
+    {
+      "architecture": "cnn",
+      "checkpoint": "3ccc442d7a83432d8a24e433e61b7c98",
+      "game": {
+        "id": "0d79755618aa4d9fb9978321861f8e4d",
+        "created": 1792330185.9257426,
+        "size": 9,
+        "moves": [
+          40,
+          16
+        ],
+        "checkpoint": "3ccc442d7a83432d8a24e433e61b7c98",
+        "human": 1,
+        "simulations": 8,
+        "revision": 2,
+        "parent": null,
+        "connect": 5,
+        "rules": "freestyle-v1",
+        "board": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "to_play": 1,
+        "winner": null,
+        "terminal": false
+      },
+      "branch": "30e19f3d0f2349ddbde294fd91a6ff5e",
+      "imported": "60b9d012331849c3be4eda6239e04226"
+    },
+    {
+      "architecture": "vit",
+      "checkpoint": "f96da9ea83cf48128ee9e9d08577633c",
+      "game": {
+        "id": "af1fadcfe70d402ab7b6aa107ddb36a1",
+        "created": 1792330185.993736,
+        "size": 9,
+        "moves": [
+          40,
+          3
+        ],
+        "checkpoint": "f96da9ea83cf48128ee9e9d08577633c",
+        "human": 1,
+        "simulations": 8,
+        "revision": 2,
+        "parent": null,
+        "connect": 5,
+        "rules": "freestyle-v1",
+        "board": [
+          [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "to_play": 1,
+        "winner": null,
+        "terminal": false
+      },
+      "branch": "533911282cfb440aae20ac394ece8414",
+      "imported": "2489dda95b3b4c3e95a2ffb056d6567b"
+    }
+  ],
+  "analyses": [
+    {
+      "architecture": "cnn",
+      "top5": [
+        {
+          "action": 14,
+          "win": 0.4470658004283905,
+          "draw": 0.037113383412361145,
+          "loss": 0.5158207416534424,
+          "value": -0.06875494122505188,
+          "policy": 0.014145792461931705,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 54,
+          "win": 0.4470539391040802,
+          "draw": 0.03703233227133751,
+          "loss": 0.5159136652946472,
+          "value": -0.06885972619056702,
+          "policy": 0.00676601380109787,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 1,
+          "win": 0.4470422863960266,
+          "draw": 0.03699303790926933,
+          "loss": 0.5159646272659302,
+          "value": -0.06892234086990356,
+          "policy": 0.008968066424131393,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 0,
+          "win": 0.4470418691635132,
+          "draw": 0.03700675070285797,
+          "loss": 0.51595139503479,
+          "value": -0.06890952587127686,
+          "policy": 0.006595273036509752,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 69,
+          "win": 0.4470369517803192,
+          "draw": 0.03707602247595787,
+          "loss": 0.5158869624137878,
+          "value": -0.06885001063346863,
+          "policy": 0.015074343420565128,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        }
+      ],
+      "elapsed_ms": 22.393499999452615
+    },
+    {
+      "architecture": "vit",
+      "top5": [
+        {
+          "action": 38,
+          "win": 0.29864221811294556,
+          "draw": 0.2551882266998291,
+          "loss": 0.4461696147918701,
+          "value": -0.14752739667892456,
+          "policy": 0.012593163177371025,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 49,
+          "win": 0.2986317276954651,
+          "draw": 0.2551736831665039,
+          "loss": 0.44619452953338623,
+          "value": -0.14756280183792114,
+          "policy": 0.012963706627488136,
+          "visit_fraction": 0.125,
+          "visits": 1,
+          "search_q": -0.14756280183792114,
+          "search_wdl": [
+            0.2986317276954651,
+            0.2551737129688263,
+            0.44619452953338623
+          ]
+        },
+        {
+          "action": 25,
+          "win": 0.2986309826374054,
+          "draw": 0.2551842927932739,
+          "loss": 0.4461846947669983,
+          "value": -0.1475537121295929,
+          "policy": 0.013088975101709366,
+          "visit_fraction": 0.125,
+          "visits": 1,
+          "search_q": -0.1475537121295929,
+          "search_wdl": [
+            0.2986309826374054,
+            0.2551842927932739,
+            0.4461846947669983
+          ]
+        },
+        {
+          "action": 66,
+          "win": 0.2986242473125458,
+          "draw": 0.25518280267715454,
+          "loss": 0.4461928606033325,
+          "value": -0.14756861329078674,
+          "policy": 0.012903611175715923,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 52,
+          "win": 0.2986237108707428,
+          "draw": 0.25516292452812195,
+          "loss": 0.4462132751941681,
+          "value": -0.1475895643234253,
+          "policy": 0.013032649643719196,
+          "visit_fraction": 0.125,
+          "visits": 1,
+          "search_q": -0.14758959412574768,
+          "search_wdl": [
+            0.2986237406730652,
+            0.25516292452812195,
+            0.44621333479881287
+          ]
+        }
+      ],
+      "elapsed_ms": 10.555999997450272
+    }
+  ],
+  "evaluation_job": {
+    "status": "completed",
+    "reports": [
+      {
+        "opponent": "random",
+        "seed": 42,
+        "pairs": 1,
+        "games": 2,
+        "simulations": 8,
+        "score": 1.0,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "score_se": null,
+        "elo_difference": 798.2540778390198,
+        "elo_censored": true,
+        "average_length": 12.5,
+        "seconds": 0.08361119999972288,
+        "latency_ms": 6.290691666436032,
+        "brier": 0.43326902389526367,
+        "calibration_bins": [
+          {
+            "count": 12,
+            "predicted": 0.5171898007392883,
+            "observed": 1.0
+          }
+        ],
+        "ece": 0.48281019926071167,
+        "calibration_note": "Correlated positions; calibration is descriptive, not independent samples.",
+        "checkpoint": "3ccc442d7a83432d8a24e433e61b7c98",
+        "experiment": "1ce1117846e348929ccd63c2ba1f0dcf",
+        "games_trained": 2,
+        "opponent_id": "random",
+        "training_seconds": 0.9127088000022923,
+        "tactics": {
+          "accuracy": 0.375,
+          "count": 8,
+          "items": [
+            {
+              "kind": "win",
+              "moves": [
+                0,
+                72,
+                1,
+                73,
+                2,
+                74,
+                3,
+                75
+              ],
+              "answers": [
+                4
+              ],
+              "action": 25,
+              "correct": false
+            },
+            {
+              "kind": "defend",
+              "moves": [
+                0,
+                72,
+                1,
+                73,
+                2,
+                74,
+                3
+              ],
+              "answers": [
+                4
+              ],
+              "action": 25,
+              "correct": false
+            },
+            {
+              "kind": "win",
+              "moves": [
+                9,
+                72,
+                10,
+                73,
+                11,
+                74,
+                12,
+                75
+              ],
+              "answers": [
+                13
+              ],
+              "action": 13,
+              "correct": true
+            },
+            {
+              "kind": "defend",
+              "moves": [
+                9,
+                72,
+                10,
+                73,
+                11,
+                74,
+                12
+              ],
+              "answers": [
+                13
+              ],
+              "action": 25,
+              "correct": false
+            },
+            {
+              "kind": "win",
+              "moves": [
+                18,
+                72,
+                19,
+                73,
+                20,
+                74,
+                21,
+                75
+              ],
+              "answers": [
+                22
+              ],
+              "action": 22,
+              "correct": true
+            },
+            {
+              "kind": "defend",
+              "moves": [
+                18,
+                72,
+                19,
+                73,
+                20,
+                74,
+                21
+              ],
+              "answers": [
+                22
+              ],
+              "action": 12,
+              "correct": false
+            },
+            {
+              "kind": "win",
+              "moves": [
+                27,
+                72,
+                28,
+                73,
+                29,
+                74,
+                30,
+                75
+              ],
+              "answers": [
+                31
+              ],
+              "action": 31,
+              "correct": true
+            },
+            {
+              "kind": "defend",
+              "moves": [
+                27,
+                72,
+                28,
+                73,
+                29,
+                74,
+                30
+              ],
+              "answers": [
+                31
+              ],
+              "action": 21,
+              "correct": false
+            }
+          ]
+        },
+        "benchmark": {
+          "device": "cpu",
+          "batch": 1,
+          "repeats": 30,
+          "median_ms": 0.40500000068277586,
+          "p95_ms": 0.5109199986691237,
+          "positions_per_second": 2316.2267126150027,
+          "gpu_peak_mb": null
+        },
+        "id": "de40b9125294407a9574d85e7f0aaf9e"
+      }
+    ],
+    "score_mean": 1.0,
+    "score_std": 0.0
+  }
+}

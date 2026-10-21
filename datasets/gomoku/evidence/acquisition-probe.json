@@ -1,0 +1,69 @@
+[
+  {
+    "path": "evidence/party-manifest.json",
+    "url": "https://gomokuparty.com/api/v1/database",
+    "status": 200,
+    "bytes": 1829,
+    "sha256": "d8b87486d2b619cfbc879baf0b26c371f6163a27cc69e05caa4b2bb1a5bc4285"
+  },
+  {
+    "path": "evidence/party-format.html",
+    "url": "https://gomokuparty.com/database/format.html",
+    "status": 200,
+    "bytes": 13025,
+    "sha256": "8f918f716814101cb12bbd2b525f8fce853bfa51dff75db5fbb64be19f61fea6"
+  },
+  {
+    "path": "evidence/hf-data-readme.md",
+    "url": "https://huggingface.co/datasets/Karesis/Gomoku/raw/5cf594efdcddcba688965e3bdcab37f2a89d714b/gomoku_dataset_split/README.md",
+    "status": 200,
+    "bytes": 3417,
+    "sha256": "afb584c5e060adec320710f44cb4e0eba38e7d685653f9243257f0a01fd547b4"
+  },
+  {
+    "path": "data/raw/karesis/complete_games.json",
+    "url": "https://huggingface.co/datasets/Karesis/Gomoku/resolve/5cf594efdcddcba688965e3bdcab37f2a89d714b/gomoku_dataset_split/sequence/complete_games.json",
+    "status": 200,
+    "bytes": 139949,
+    "sha256": "b2f49e473b6e3f5714b0b194aacaa4d346a6c0200e58a3452197636ed2b55353"
+  },
+  {
+    "path": "evidence/winepy-board.py",
+    "url": "https://raw.githubusercontent.com/Karesis/Winepy/main/board.py",
+    "status": 200,
+    "bytes": 12971,
+    "sha256": "25ba998da86b007e0faf4c2b893ecdf4d918715d8440b87e0740e8d94fcf5687"
+  },
+  {
+    "path": "evidence/winepy-data-generator.py",
+    "url": "https://raw.githubusercontent.com/Karesis/Winepy/main/data_generator.py",
+    "status": 200,
+    "bytes": 8831,
+    "sha256": "8ba004a067092a23ec9caabda7a6efd225ff1d3591f218554338414ee6e14c89"
+  },
+  {
+    "path": "evidence/winepy-LICENSE",
+    "url": "https://raw.githubusercontent.com/Karesis/Winepy/main/LICENSE",
+    "status": 200,
+    "bytes": 1066,
+    "sha256": "a782acaa70d9a8ec86740a6559e5c70a71f24cf028d4d781c0b3a1d0395df16c"
+  },
+  {
+    "path": "data/raw/gomoku_party/gomokuparty-games-2026-09-ff1b4e5256799065.sgf.gz",
+    "url": "https://gomokuparty.com/api/v1/database/archives/gomokuparty-games-2026-09-ff1b4e5256799065.sgf.gz",
+    "status": 200,
+    "bytes": 66321,
+    "sha256": "ff1b4e52567990651530fbe43aabf092b7149cf8da34b2e078a2042bbb44e61d",
+    "expected_sha256": "ff1b4e52567990651530fbe43aabf092b7149cf8da34b2e078a2042bbb44e61d",
+    "verified": true
+  },
+  {
+    "path": "data/raw/gomoku_party/gomokuparty-games-2026-08-a8bae64137a70f3a.sgf.gz",
+    "url": "https://gomokuparty.com/api/v1/database/archives/gomokuparty-games-2026-08-a8bae64137a70f3a.sgf.gz",
+    "status": 200,
+    "bytes": 1497,
+    "sha256": "a8bae64137a70f3ad1ce7dfa532fbd9f96efb644d655e9f7c3e7942bfc644302",
+    "expected_sha256": "a8bae64137a70f3ad1ce7dfa532fbd9f96efb644d655e9f7c3e7942bfc644302",
+    "verified": true
+  }
+]

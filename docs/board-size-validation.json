@@ -1,0 +1,51 @@
+{
+  "experiment": "faac0f3903a041d8b092f0fbfc214947",
+  "status": "completed",
+  "checkpoint": "06e7e26dec9f4c1e83cbaaf90321e42d",
+  "model_config": {
+    "architecture": "cnn",
+    "size": 13,
+    "channels": 8,
+    "blocks": 1,
+    "dim": 64,
+    "layers": 3,
+    "heads": 4,
+    "mlp_ratio": 2
+  },
+  "dataset_sizes": [
+    13
+  ],
+  "updates": 3,
+  "metrics": [
+    {
+      "step": 3,
+      "created": 1792416867.3468635,
+      "policy_loss": 5.571232371860081,
+      "value_loss": 1.0430442028575473,
+      "loss": 6.614276621076796,
+      "accuracy": 0.0,
+      "epoch": 1.0,
+      "updates": 3,
+      "completed_epochs": 1,
+      "train_samples": 9,
+      "validation_samples": 0,
+      "samples_seen": 9,
+      "seconds": 0.14997159999984433,
+      "device": "cpu",
+      "learning_rate": 0.0009985007498750002,
+      "samples_per_second": 60.01008169277109,
+      "gpu_memory_mb": 0.0,
+      "rss_mb": 688.60546875
+    }
+  ],
+  "category_counts": {
+    "9": 1,
+    "13": 1
+  },
+  "browser_checks": [
+    "13x13 captured and saved",
+    "collection to SFT carries board size",
+    "9 and 13 classes load separately",
+    "source Checkpoint fixes class to 13"
+  ]
+}

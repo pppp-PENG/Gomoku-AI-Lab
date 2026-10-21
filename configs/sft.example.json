@@ -1,0 +1,19 @@
+{
+  "kind": "sft",
+  "model": {"architecture": "cnn", "size": 9, "channels": 48, "blocks": 3},
+  "initial_checkpoint": null,
+  "dataset_ids": ["REPLACE_WITH_COLLECTED_GAME_ID"],
+  "epochs": 20,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "value_weight": 1.0,
+  "validation_fraction": 0.2,
+  "augment": true,
+  "seed": 42,
+  "checkpoint_every": 5,
+  "device": "auto",
+  "threads": 4,
+  "max_hours": 1.0,
+  "disk_budget_gb": 4.0
+}

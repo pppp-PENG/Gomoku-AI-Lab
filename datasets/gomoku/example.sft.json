@@ -1,0 +1,19 @@
+{
+  "board_size": 15,
+  "game_hash": "00123693ca68998356553a1c00a51f1f0915367df2e8c78e1130b3dafdb0d276",
+  "game_id": "a54fb31c-9bd3-4911-a119-7d38b634dce0",
+  "history": [],
+  "license": "CC0-1.0",
+  "ply": 0,
+  "ruleset": "freestyle",
+  "schema_version": 1,
+  "source": "gomoku_party",
+  "split": "train",
+  "target_action": 112,
+  "to_play": "black",
+  "wdl": [
+    0,
+    0,
+    1
+  ]
+}

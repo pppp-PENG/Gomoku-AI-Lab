@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-21T08:46:49.001588+00:00",
+  "files": [
+    {
+      "source": "gomoku_party",
+      "path": "raw/gomoku_party/gomokuparty-games-2026-09-ff1b4e5256799065.sgf.gz",
+      "url": "https://gomokuparty.com/api/v1/database/archives/gomokuparty-games-2026-09-ff1b4e5256799065.sgf.gz",
+      "sha256": "ff1b4e52567990651530fbe43aabf092b7149cf8da34b2e078a2042bbb44e61d",
+      "bytes": 66321,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "source": "gomoku_party",
+      "path": "raw/gomoku_party/gomokuparty-games-2026-08-a8bae64137a70f3a.sgf.gz",
+      "url": "https://gomokuparty.com/api/v1/database/archives/gomokuparty-games-2026-08-a8bae64137a70f3a.sgf.gz",
+      "sha256": "a8bae64137a70f3ad1ce7dfa532fbd9f96efb644d655e9f7c3e7942bfc644302",
+      "bytes": 1497,
+      "verified": true,
+      "cached": false
+    },
+    {
+      "source": "karesis",
+      "path": "raw/karesis/complete_games.json",
+      "url": "https://huggingface.co/datasets/Karesis/Gomoku/resolve/5cf594efdcddcba688965e3bdcab37f2a89d714b/gomoku_dataset_split/sequence/complete_games.json",
+      "sha256": "b2f49e473b6e3f5714b0b194aacaa4d346a6c0200e58a3452197636ed2b55353",
+      "bytes": 139949,
+      "verified": true,
+      "cached": false
+    }
+  ]
+}

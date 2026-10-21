@@ -1,0 +1,1437 @@
+{
+  "python": "3.13.13",
+  "torch": "2.14.1+cu126",
+  "cuda": true,
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "verification": "Smoke evidence only; no architecture-strength conclusion",
+  "checkpoints": [
+    {
+      "architecture": "cnn",
+      "source": "d2361766e0604894b022405b0f4eb976",
+      "checkpoint": "27670accb0e2496ca6996569fb37a3a8",
+      "experiment": "4fb70035c0e84d48ad77fd1c1dcc00df",
+      "games": 6,
+      "updates": 12,
+      "changed_tensors": 14,
+      "replay": 261,
+      "analysis_ms": 15.00310000119498,
+      "top5": [
+        {
+          "action": 61,
+          "win": 0.37053951621055603,
+          "draw": 0.31000852584838867,
+          "loss": 0.3194519579410553,
+          "value": 0.05108755826950073,
+          "policy": 0.015330040827393532,
+          "visit_fraction": 0.125,
+          "visits": 2,
+          "search_q": 0.00043651461601257324,
+          "search_wdl": [
+            0.34518684446811676,
+            0.31006282567977905,
+            0.3447503298521042
+          ]
+        },
+        {
+          "action": 10,
+          "win": 0.3705041706562042,
+          "draw": 0.30985939502716064,
+          "loss": 0.31963640451431274,
+          "value": 0.05086776614189148,
+          "policy": 0.012061257846653461,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 16,
+          "win": 0.3705025911331177,
+          "draw": 0.30987611413002014,
+          "loss": 0.3196212649345398,
+          "value": 0.05088132619857788,
+          "policy": 0.014466749504208565,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 52,
+          "win": 0.37047579884529114,
+          "draw": 0.31000322103500366,
+          "loss": 0.3195210099220276,
+          "value": 0.05095478892326355,
+          "policy": 0.014928142540156841,
+          "visit_fraction": 0.125,
+          "visits": 2,
+          "search_q": 0.00030450522899627686,
+          "search_wdl": [
+            0.34514717757701874,
+            0.31001016497612,
+            0.34484267234802246
+          ]
+        },
+        {
+          "action": 11,
+          "win": 0.37046128511428833,
+          "draw": 0.3097991645336151,
+          "loss": 0.3197396397590637,
+          "value": 0.05072164535522461,
+          "policy": 0.012119302526116371,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        }
+      ],
+      "metrics": [
+        {
+          "step": 6,
+          "created": 1792329443.5116334,
+          "policy_loss": 3.973360061645508,
+          "value_loss": 1.0800626277923584,
+          "loss": 5.053422927856445,
+          "grad_norm": 1.2120707035064697,
+          "games": 6,
+          "updates": 12,
+          "replay": 261,
+          "average_length": 47.0,
+          "black_win_rate": 0.0,
+          "draw_rate": 0.0,
+          "seconds": 2.559341399995901,
+          "games_per_second": 2.1527820833364406,
+          "rss_mb": 1411.6015625,
+          "gpu_memory_mb": 64.71435546875,
+          "device": "cuda",
+          "learning_rate": 0.0009940164725309132,
+          "selfplay_seconds": 0.7557192000022042,
+          "update_seconds": 0.17348839999976917
+        }
+      ],
+      "profile": "         26610 function calls (25402 primitive calls) in 0.018 seconds\n\n   Ordered by: cumulative time\n   List reduced from 126 to 15 due to restriction <15>\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n       33    0.000    0.000    0.012    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\utils\\_contextlib.py:120(decorate_context)\n       33    0.000    0.000    0.012    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\autograd\\grad_mode.py:294(__exit__)\n       33    0.000    0.000    0.011    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\gomoku\\search.py:15(batch)\n   594/33    0.000    0.000    0.008    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py:1779(_wrapped_call_impl)\n   594/33    0.001    0.000    0.008    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py:1787(_call_impl)\n       33    0.000    0.000    0.008    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\gomoku\\models.py:51(forward)\n    99/66    0.000    0.000    0.007    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\container.py:254(forward)\n       33    0.000    0.000    0.004    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\gomoku\\models.py:36(forward)\n      132    0.000    0.000    0.003    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\conv.py:564(forward)\n      132    0.000    0.000    0.003    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\conv.py:546(_conv_forward)\n      132    0.003    0.000    0.003    0.000 {built-in method torch.conv2d}\n       44    0.000    0.000    0.003    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\gomoku\\search.py:43(select)\n     2498    0.001    0.000    0.002    0.000 <string>:2(__init__)\n       88    0.001    0.000    0.002    0.000 {built-in method builtins.max}\n     3376    0.001    0.000    0.001    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\gomoku\\search.py:45(<lambda>)\n\n\n"
+    },
+    {
+      "architecture": "vit",
+      "source": "d240728413d246888860be54bd5e3c59",
+      "checkpoint": "f96da9ea83cf48128ee9e9d08577633c",
+      "experiment": "98758bb2e87e40dda0441e3a540c72e0",
+      "games": 6,
+      "updates": 12,
+      "changed_tensors": 23,
+      "replay": 257,
+      "analysis_ms": 17.900300001201686,
+      "top5": [
+        {
+          "action": 38,
+          "win": 0.29786166548728943,
+          "draw": 0.25490739941596985,
+          "loss": 0.44723090529441833,
+          "value": -0.1493692398071289,
+          "policy": 0.012912522070109844,
+          "visit_fraction": 0.0,
+          "visits": 0,
+          "search_q": null,
+          "search_wdl": null
+        },
+        {
+          "action": 49,
+          "win": 0.2978508770465851,
+          "draw": 0.2548927962779999,
+          "loss": 0.44725632667541504,
+          "value": -0.14940544962882996,
+          "policy": 0.013294304721057415,
+          "visit_fraction": 0.0625,
+          "visits": 1,
+          "search_q": -0.14940544962882996,
+          "search_wdl": [
+            0.2978508770465851,
+            0.25489282608032227,
+            0.44725632667541504
+          ]
+        },
+        {
+          "action": 25,
+          "win": 0.2978501617908478,
+          "draw": 0.25490355491638184,
+          "loss": 0.447246253490448,
+          "value": -0.14939609169960022,
+          "policy": 0.013424025848507881,
+          "visit_fraction": 0.0625,
+          "visits": 1,
+          "search_q": -0.14939606189727783,
+          "search_wdl": [
+            0.29785019159317017,
+            0.2549035847187042,
+            0.447246253490448
+          ]
+        },
+        {
+          "action": 66,
+          "win": 0.2978435754776001,
+          "draw": 0.25490203499794006,
+          "loss": 0.4472544193267822,
+          "value": -0.14941084384918213,
+          "policy": 0.013231142424046993,
+          "visit_fraction": 0.0625,
+          "visits": 1,
+          "search_q": -0.14941084384918213,
+          "search_wdl": [
+            0.2978435754776001,
+            0.25490203499794006,
+            0.4472544193267822
+          ]
+        },
+        {
+          "action": 52,
+          "win": 0.2978428304195404,
+          "draw": 0.2548818588256836,
+          "loss": 0.4472752511501312,
+          "value": -0.14943242073059082,
+          "policy": 0.013363387435674667,
+          "visit_fraction": 0.0625,
+          "visits": 1,
+          "search_q": -0.14943242073059082,
+          "search_wdl": [
+            0.2978428304195404,
+            0.2548818588256836,
+            0.4472752511501312
+          ]
+        }
+      ],
+      "metrics": [
+        {
+          "step": 6,
+          "created": 1792329444.134868,
+          "policy_loss": 4.0938920974731445,
+          "value_loss": 0.9874175786972046,
+          "loss": 5.081309795379639,
+          "grad_norm": 0.7829246520996094,
+          "games": 6,
+          "updates": 12,
+          "replay": 257,
+          "average_length": 42.0,
+          "black_win_rate": 0.0,
+          "draw_rate": 0.0,
+          "seconds": 2.1012616000007256,
+          "games_per_second": 3.7457448338522332,
+          "rss_mb": 1459.0859375,
+          "gpu_memory_mb": 66.15283203125,
+          "device": "cuda",
+          "learning_rate": 0.0009940164725309132,
+          "selfplay_seconds": 0.506929900002433,
+          "update_seconds": 0.027174499999091495
+        }
+      ],
+      "profile": "         28695 function calls (27349 primitive calls) in 0.025 seconds\n\n   Ordered by: cumulative time\n   List reduced from 140 to 15 due to restriction <15>\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n       33    0.000    0.000    0.019    0.001 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\utils\\_contextlib.py:120(decorate_context)\n       33    0.000    0.000    0.019    0.001 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\autograd\\grad_mode.py:294(__exit__)\n       33    0.000    0.000    0.018    0.001 D:\\codes\\Projects\\Gomoku AI Lab\\gomoku\\search.py:15(batch)\n   330/33    0.000    0.000    0.015    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py:1779(_wrapped_call_impl)\n   330/33    0.001    0.000    0.015    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py:1787(_call_impl)\n       33    0.001    0.000    0.014    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\gomoku\\models.py:68(forward)\n       33    0.000    0.000    0.009    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\transformer.py:409(forward)\n       33    0.001    0.000    0.008    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\transformer.py:799(forward)\n       33    0.005    0.000    0.005    0.000 {built-in method torch._transformer_encoder_layer_fwd}\n     2510    0.001    0.000    0.002    0.000 <string>:2(__init__)\n       32    0.000    0.000    0.002    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\gomoku\\search.py:43(select)\n      132    0.000    0.000    0.002    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\linear.py:130(forward)\n      132    0.002    0.000    0.002    0.000 {built-in method torch._C._nn.linear}\n       33    0.000    0.000    0.002    0.000 D:\\codes\\Projects\\Gomoku AI Lab\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\container.py:254(forward)\n       64    0.000    0.000    0.001    0.000 {built-in method builtins.max}\n\n\n"
+    }
+  ],
+  "benchmarks": [
+    {
+      "device": "cpu",
+      "batch": 1,
+      "repeats": 30,
+      "median_ms": 0.505449999764096,
+      "p95_ms": 0.8625600023151491,
+      "positions_per_second": 1784.609527779673,
+      "gpu_peak_mb": null,
+      "architecture": "cnn",
+      "model_config": {
+        "architecture": "cnn",
+        "size": 9,
+        "channels": 48,
+        "blocks": 3,
+        "dim": 64,
+        "layers": 3,
+        "heads": 4,
+        "mlp_ratio": 2
+      },
+      "parameters": 128884,
+      "estimated_flops": 20378016
+    },
+    {
+      "device": "cuda",
+      "batch": 1,
+      "repeats": 30,
+      "median_ms": 1.0151000005862443,
+      "p95_ms": 1.319635000072594,
+      "positions_per_second": 932.664716252467,
+      "gpu_peak_mb": 64.638671875,
+      "architecture": "cnn",
+      "model_config": {
+        "architecture": "cnn",
+        "size": 9,
+        "channels": 48,
+        "blocks": 3,
+        "dim": 64,
+        "layers": 3,
+        "heads": 4,
+        "mlp_ratio": 2
+      },
+      "parameters": 128884,
+      "estimated_flops": 20378016
+    },
+    {
+      "device": "cpu",
+      "batch": 1,
+      "repeats": 30,
+      "median_ms": 0.788350002039806,
+      "p95_ms": 0.9572750019287923,
+      "positions_per_second": 1227.7571328293689,
+      "gpu_peak_mb": null,
+      "architecture": "vit",
+      "model_config": {
+        "architecture": "vit",
+        "size": 9,
+        "channels": 48,
+        "blocks": 3,
+        "dim": 64,
+        "layers": 3,
+        "heads": 4,
+        "mlp_ratio": 2
+      },
+      "parameters": 110404,
+      "estimated_flops": 21014144
+    },
+    {
+      "device": "cuda",
+      "batch": 1,
+      "repeats": 30,
+      "median_ms": 1.0583500006760005,
+      "p95_ms": 1.597324998874683,
+      "positions_per_second": 861.301714239282,
+      "gpu_peak_mb": 64.58984375,
+      "architecture": "vit",
+      "model_config": {
+        "architecture": "vit",
+        "size": 9,
+        "channels": 48,
+        "blocks": 3,
+        "dim": 64,
+        "layers": 3,
+        "heads": 4,
+        "mlp_ratio": 2
+      },
+      "parameters": 110404,
+      "estimated_flops": 21014144
+    }
+  ],
+  "evaluations": [
+    {
+      "id": "2cc526864f524b399ec81f5ccf1f5199",
+      "created": 1792329277.499191,
+      "opponent": "heuristic",
+      "seed": 43,
+      "pairs": 1,
+      "games": 2,
+      "simulations": 8,
+      "score": 0.0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "score_se": null,
+      "elo_difference": -798.2540778390199,
+      "elo_censored": true,
+      "average_length": 9.5,
+      "seconds": 0.08620210000299267,
+      "latency_ms": 5.197112500809453,
+      "brier": 0.7432634830474854,
+      "calibration_bins": [
+        {
+          "count": 8,
+          "predicted": 0.4069982171058655,
+          "observed": 0.0
+        }
+      ],
+      "ece": 0.4069982171058655,
+      "calibration_note": "Correlated positions; calibration is descriptive, not independent samples.",
+      "checkpoint": "d240728413d246888860be54bd5e3c59",
+      "opponent_id": "heuristic",
+      "tactics": {
+        "accuracy": 0.0,
+        "count": 8,
+        "items": [
+          {
+            "kind": "win",
+            "moves": [
+              0,
+              72,
+              1,
+              73,
+              2,
+              74,
+              3,
+              75
+            ],
+            "answers": [
+              4
+            ],
+            "action": 7,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              0,
+              72,
+              1,
+              73,
+              2,
+              74,
+              3
+            ],
+            "answers": [
+              4
+            ],
+            "action": 7,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              9,
+              72,
+              10,
+              73,
+              11,
+              74,
+              12,
+              75
+            ],
+            "answers": [
+              13
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              9,
+              72,
+              10,
+              73,
+              11,
+              74,
+              12
+            ],
+            "answers": [
+              13
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              18,
+              72,
+              19,
+              73,
+              20,
+              74,
+              21,
+              75
+            ],
+            "answers": [
+              22
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              18,
+              72,
+              19,
+              73,
+              20,
+              74,
+              21
+            ],
+            "answers": [
+              22
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              27,
+              72,
+              28,
+              73,
+              29,
+              74,
+              30,
+              75
+            ],
+            "answers": [
+              31
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              27,
+              72,
+              28,
+              73,
+              29,
+              74,
+              30
+            ],
+            "answers": [
+              31
+            ],
+            "action": 3,
+            "correct": false
+          }
+        ]
+      },
+      "benchmark": {
+        "device": "cpu",
+        "batch": 1,
+        "repeats": 30,
+        "median_ms": 0.22915000045031775,
+        "p95_ms": 0.2983899998071137,
+        "positions_per_second": 4198.211560231327,
+        "gpu_peak_mb": null
+      }
+    },
+    {
+      "id": "c4712f29341f4aa6b6c9fcd0e00efe99",
+      "created": 1792329277.3579273,
+      "opponent": "heuristic",
+      "seed": 42,
+      "pairs": 1,
+      "games": 2,
+      "simulations": 8,
+      "score": 0.0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "score_se": null,
+      "elo_difference": -798.2540778390199,
+      "elo_censored": true,
+      "average_length": 13.5,
+      "seconds": 0.12459410000155913,
+      "latency_ms": 5.045791666513348,
+      "brier": 0.7452754974365234,
+      "calibration_bins": [
+        {
+          "count": 12,
+          "predicted": 0.4080643355846405,
+          "observed": 0.0
+        }
+      ],
+      "ece": 0.4080643355846405,
+      "calibration_note": "Correlated positions; calibration is descriptive, not independent samples.",
+      "checkpoint": "d240728413d246888860be54bd5e3c59",
+      "opponent_id": "heuristic",
+      "tactics": {
+        "accuracy": 0.0,
+        "count": 8,
+        "items": [
+          {
+            "kind": "win",
+            "moves": [
+              0,
+              72,
+              1,
+              73,
+              2,
+              74,
+              3,
+              75
+            ],
+            "answers": [
+              4
+            ],
+            "action": 7,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              0,
+              72,
+              1,
+              73,
+              2,
+              74,
+              3
+            ],
+            "answers": [
+              4
+            ],
+            "action": 7,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              9,
+              72,
+              10,
+              73,
+              11,
+              74,
+              12,
+              75
+            ],
+            "answers": [
+              13
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              9,
+              72,
+              10,
+              73,
+              11,
+              74,
+              12
+            ],
+            "answers": [
+              13
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              18,
+              72,
+              19,
+              73,
+              20,
+              74,
+              21,
+              75
+            ],
+            "answers": [
+              22
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              18,
+              72,
+              19,
+              73,
+              20,
+              74,
+              21
+            ],
+            "answers": [
+              22
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              27,
+              72,
+              28,
+              73,
+              29,
+              74,
+              30,
+              75
+            ],
+            "answers": [
+              31
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              27,
+              72,
+              28,
+              73,
+              29,
+              74,
+              30
+            ],
+            "answers": [
+              31
+            ],
+            "action": 3,
+            "correct": false
+          }
+        ]
+      },
+      "benchmark": {
+        "device": "cpu",
+        "batch": 1,
+        "repeats": 30,
+        "median_ms": 0.21880000167584512,
+        "p95_ms": 0.2872400018532062,
+        "positions_per_second": 4234.297807274951,
+        "gpu_peak_mb": null
+      }
+    },
+    {
+      "id": "07fadae236f549aeb46683e38d13d9e0",
+      "created": 1792329275.7037883,
+      "opponent": "random",
+      "seed": 43,
+      "pairs": 1,
+      "games": 2,
+      "simulations": 8,
+      "score": 1.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
+      "score_se": null,
+      "elo_difference": 798.2540778390198,
+      "elo_censored": true,
+      "average_length": 48.5,
+      "seconds": 0.2574323999979242,
+      "latency_ms": 4.867966666552093,
+      "brier": 0.5112528204917908,
+      "calibration_bins": [
+        {
+          "count": 48,
+          "predicted": 0.41623416543006897,
+          "observed": 1.0
+        }
+      ],
+      "ece": 0.583765834569931,
+      "calibration_note": "Correlated positions; calibration is descriptive, not independent samples.",
+      "checkpoint": "d240728413d246888860be54bd5e3c59",
+      "opponent_id": "random",
+      "tactics": {
+        "accuracy": 0.0,
+        "count": 8,
+        "items": [
+          {
+            "kind": "win",
+            "moves": [
+              0,
+              72,
+              1,
+              73,
+              2,
+              74,
+              3,
+              75
+            ],
+            "answers": [
+              4
+            ],
+            "action": 7,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              0,
+              72,
+              1,
+              73,
+              2,
+              74,
+              3
+            ],
+            "answers": [
+              4
+            ],
+            "action": 7,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              9,
+              72,
+              10,
+              73,
+              11,
+              74,
+              12,
+              75
+            ],
+            "answers": [
+              13
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              9,
+              72,
+              10,
+              73,
+              11,
+              74,
+              12
+            ],
+            "answers": [
+              13
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              18,
+              72,
+              19,
+              73,
+              20,
+              74,
+              21,
+              75
+            ],
+            "answers": [
+              22
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              18,
+              72,
+              19,
+              73,
+              20,
+              74,
+              21
+            ],
+            "answers": [
+              22
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              27,
+              72,
+              28,
+              73,
+              29,
+              74,
+              30,
+              75
+            ],
+            "answers": [
+              31
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              27,
+              72,
+              28,
+              73,
+              29,
+              74,
+              30
+            ],
+            "answers": [
+              31
+            ],
+            "action": 3,
+            "correct": false
+          }
+        ]
+      },
+      "benchmark": {
+        "device": "cpu",
+        "batch": 1,
+        "repeats": 30,
+        "median_ms": 0.22320000061881728,
+        "p95_ms": 0.32660500000929454,
+        "positions_per_second": 4128.023766929403,
+        "gpu_peak_mb": null
+      }
+    },
+    {
+      "id": "fdc504fb419242ab98335f1289785a29",
+      "created": 1792329275.3969746,
+      "opponent": "random",
+      "seed": 42,
+      "pairs": 1,
+      "games": 2,
+      "simulations": 8,
+      "score": 1.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
+      "score_se": null,
+      "elo_difference": 798.2540778390198,
+      "elo_censored": true,
+      "average_length": 43.5,
+      "seconds": 0.22820409999985714,
+      "latency_ms": 4.777976743562884,
+      "brier": 0.5131497383117676,
+      "calibration_bins": [
+        {
+          "count": 43,
+          "predicted": 0.4151421785354614,
+          "observed": 1.0
+        }
+      ],
+      "ece": 0.5848578214645386,
+      "calibration_note": "Correlated positions; calibration is descriptive, not independent samples.",
+      "checkpoint": "d240728413d246888860be54bd5e3c59",
+      "opponent_id": "random",
+      "tactics": {
+        "accuracy": 0.0,
+        "count": 8,
+        "items": [
+          {
+            "kind": "win",
+            "moves": [
+              0,
+              72,
+              1,
+              73,
+              2,
+              74,
+              3,
+              75
+            ],
+            "answers": [
+              4
+            ],
+            "action": 7,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              0,
+              72,
+              1,
+              73,
+              2,
+              74,
+              3
+            ],
+            "answers": [
+              4
+            ],
+            "action": 7,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              9,
+              72,
+              10,
+              73,
+              11,
+              74,
+              12,
+              75
+            ],
+            "answers": [
+              13
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              9,
+              72,
+              10,
+              73,
+              11,
+              74,
+              12
+            ],
+            "answers": [
+              13
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              18,
+              72,
+              19,
+              73,
+              20,
+              74,
+              21,
+              75
+            ],
+            "answers": [
+              22
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              18,
+              72,
+              19,
+              73,
+              20,
+              74,
+              21
+            ],
+            "answers": [
+              22
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              27,
+              72,
+              28,
+              73,
+              29,
+              74,
+              30,
+              75
+            ],
+            "answers": [
+              31
+            ],
+            "action": 3,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              27,
+              72,
+              28,
+              73,
+              29,
+              74,
+              30
+            ],
+            "answers": [
+              31
+            ],
+            "action": 3,
+            "correct": false
+          }
+        ]
+      },
+      "benchmark": {
+        "device": "cpu",
+        "batch": 1,
+        "repeats": 30,
+        "median_ms": 0.2177500009565847,
+        "p95_ms": 0.34353999890299725,
+        "positions_per_second": 4230.715001989784,
+        "gpu_peak_mb": null
+      }
+    },
+    {
+      "id": "121cd26b32b149bdad84c135fb986671",
+      "created": 1792329235.8491187,
+      "opponent": "heuristic",
+      "seed": 43,
+      "pairs": 1,
+      "games": 2,
+      "simulations": 8,
+      "score": 0.0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "score_se": null,
+      "elo_difference": -798.2540778390199,
+      "elo_censored": true,
+      "average_length": 9.5,
+      "seconds": 0.07144740000148886,
+      "latency_ms": 4.089649999514222,
+      "brier": 0.5996732711791992,
+      "calibration_bins": [
+        {
+          "count": 8,
+          "predicted": 0.30108940601348877,
+          "observed": 0.0
+        }
+      ],
+      "ece": 0.30108940601348877,
+      "calibration_note": "Correlated positions; calibration is descriptive, not independent samples.",
+      "checkpoint": "d2361766e0604894b022405b0f4eb976",
+      "opponent_id": "heuristic",
+      "tactics": {
+        "accuracy": 0.0,
+        "count": 8,
+        "items": [
+          {
+            "kind": "win",
+            "moves": [
+              0,
+              72,
+              1,
+              73,
+              2,
+              74,
+              3,
+              75
+            ],
+            "answers": [
+              4
+            ],
+            "action": 25,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              0,
+              72,
+              1,
+              73,
+              2,
+              74,
+              3
+            ],
+            "answers": [
+              4
+            ],
+            "action": 11,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              9,
+              72,
+              10,
+              73,
+              11,
+              74,
+              12,
+              75
+            ],
+            "answers": [
+              13
+            ],
+            "action": 25,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              9,
+              72,
+              10,
+              73,
+              11,
+              74,
+              12
+            ],
+            "answers": [
+              13
+            ],
+            "action": 20,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              18,
+              72,
+              19,
+              73,
+              20,
+              74,
+              21,
+              75
+            ],
+            "answers": [
+              22
+            ],
+            "action": 25,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              18,
+              72,
+              19,
+              73,
+              20,
+              74,
+              21
+            ],
+            "answers": [
+              22
+            ],
+            "action": 25,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              27,
+              72,
+              28,
+              73,
+              29,
+              74,
+              30,
+              75
+            ],
+            "answers": [
+              31
+            ],
+            "action": 25,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              27,
+              72,
+              28,
+              73,
+              29,
+              74,
+              30
+            ],
+            "answers": [
+              31
+            ],
+            "action": 25,
+            "correct": false
+          }
+        ]
+      },
+      "benchmark": {
+        "device": "cpu",
+        "batch": 1,
+        "repeats": 30,
+        "median_ms": 0.14059999921300914,
+        "p95_ms": 0.14676999999210238,
+        "positions_per_second": 7081.149994316505,
+        "gpu_peak_mb": null
+      }
+    },
+    {
+      "id": "d076e85df02a43c589cbfc717a8413af",
+      "created": 1792329235.7339363,
+      "opponent": "heuristic",
+      "seed": 42,
+      "pairs": 1,
+      "games": 2,
+      "simulations": 8,
+      "score": 0.0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "score_se": null,
+      "elo_difference": -798.2540778390199,
+      "elo_censored": true,
+      "average_length": 11.5,
+      "seconds": 0.09153920000244398,
+      "latency_ms": 4.0028800001891796,
+      "brier": 0.5996412038803101,
+      "calibration_bins": [
+        {
+          "count": 10,
+          "predicted": 0.3011886477470398,
+          "observed": 0.0
+        }
+      ],
+      "ece": 0.3011886477470398,
+      "calibration_note": "Correlated positions; calibration is descriptive, not independent samples.",
+      "checkpoint": "d2361766e0604894b022405b0f4eb976",
+      "opponent_id": "heuristic",
+      "tactics": {
+        "accuracy": 0.0,
+        "count": 8,
+        "items": [
+          {
+            "kind": "win",
+            "moves": [
+              0,
+              72,
+              1,
+              73,
+              2,
+              74,
+              3,
+              75
+            ],
+            "answers": [
+              4
+            ],
+            "action": 25,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              0,
+              72,
+              1,
+              73,
+              2,
+              74,
+              3
+            ],
+            "answers": [
+              4
+            ],
+            "action": 11,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              9,
+              72,
+              10,
+              73,
+              11,
+              74,
+              12,
+              75
+            ],
+            "answers": [
+              13
+            ],
+            "action": 25,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              9,
+              72,
+              10,
+              73,
+              11,
+              74,
+              12
+            ],
+            "answers": [
+              13
+            ],
+            "action": 20,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              18,
+              72,
+              19,
+              73,
+              20,
+              74,
+              21,
+              75
+            ],
+            "answers": [
+              22
+            ],
+            "action": 25,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              18,
+              72,
+              19,
+              73,
+              20,
+              74,
+              21
+            ],
+            "answers": [
+              22
+            ],
+            "action": 25,
+            "correct": false
+          },
+          {
+            "kind": "win",
+            "moves": [
+              27,
+              72,
+              28,
+              73,
+              29,
+              74,
+              30,
+              75
+            ],
+            "answers": [
+              31
+            ],
+            "action": 25,
+            "correct": false
+          },
+          {
+            "kind": "defend",
+            "moves": [
+              27,
+              72,
+              28,
+              73,
+              29,
+              74,
+              30
+            ],
+            "answers": [
+              31
+            ],
+            "action": 25,
+            "correct": false
+          }
+        ]
+      },
+      "benchmark": {
+        "device": "cpu",
+        "batch": 1,
+        "repeats": 30,
+        "median_ms": 0.1503000003140187,
+        "p95_ms": 0.212519998603966,
+        "positions_per_second": 6272.0829477968355,
+        "gpu_peak_mb": null
+      }
+    }
+  ]
+}

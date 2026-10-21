@@ -1,0 +1,11 @@
+{
+  "url": "https://www.renju.net/game/",
+  "checked_at": "2026-10-21",
+  "metadata_page_sha256": "83bc39afb32797a7663abcd62c2a463393abee2ba271793c2902bd8ae6a94cbe",
+  "observed_download_formats": [
+    "XML",
+    "XML.GZ"
+  ],
+  "policy_summary": "Noncommercial offline database only; website/online system use of content and modifications forbidden. No database requested.",
+  "database_downloaded": false
+}

@@ -1,0 +1,271 @@
+{
+  "aliases": [
+    {
+      "game_id": "a54fb31c-9bd3-4911-a119-7d38b634dce0",
+      "license": "CC0-1.0",
+      "provenance": {
+        "license_url": "https://gomokuparty.com/database/",
+        "raw_path": "raw/gomoku_party/gomokuparty-games-2026-09-ff1b4e5256799065.sgf.gz",
+        "revision": "gomoku-party-sgf-2 / manifest captured 2026-10-21",
+        "sha256": "ff1b4e52567990651530fbe43aabf092b7149cf8da34b2e078a2042bbb44e61d",
+        "source_url": "https://gomokuparty.com/api/v1/database/archives/gomokuparty-games-2026-09-ff1b4e5256799065.sgf.gz"
+      },
+      "source": "gomoku_party"
+    }
+  ],
+  "board_size": 15,
+  "game_hash": "00123693ca68998356553a1c00a51f1f0915367df2e8c78e1130b3dafdb0d276",
+  "game_id": "a54fb31c-9bd3-4911-a119-7d38b634dce0",
+  "license": "CC0-1.0",
+  "metadata": {
+    "sgf_root": {
+      "AP": [
+        "GomokuParty:2.0"
+      ],
+      "BR": [
+        "1168 Elo"
+      ],
+      "CA": [
+        "UTF-8"
+      ],
+      "CP": [
+        "CC0-1.0"
+      ],
+      "DT": [
+        "2026-09-16"
+      ],
+      "FF": [
+        "4"
+      ],
+      "GM": [
+        "4"
+      ],
+      "GN": [
+        "a54fb31c-9bd3-4911-a119-7d38b634dce0"
+      ],
+      "PB": [
+        "Black"
+      ],
+      "PC": [
+        "https://gomokuparty.com"
+      ],
+      "PW": [
+        "White"
+      ],
+      "RE": [
+        "W+"
+      ],
+      "RU": [
+        "Gomoku Freestyle"
+      ],
+      "SO": [
+        "https://gomokuparty.com/database/"
+      ],
+      "SZ": [
+        "15"
+      ],
+      "WR": [
+        "1200 Elo"
+      ],
+      "XER": [
+        "FIVE_IN_ROW"
+      ],
+      "XET": [
+        "2026-09-16T08:53:06.045395Z"
+      ],
+      "XGP": [
+        "gomoku-party-sgf-2"
+      ],
+      "XM": [
+        "PARTY"
+      ],
+      "XMC": [
+        "22"
+      ],
+      "XR": [
+        "FREESTYLE"
+      ],
+      "XRT": [
+        "rated"
+      ],
+      "XST": [
+        "2026-09-16T08:51:06.282722Z"
+      ],
+      "XTC": [
+        "PER_MOVE",
+        "60",
+        "0"
+      ]
+    }
+  },
+  "moves": [
+    {
+      "action": 112,
+      "color": "black",
+      "ply": 0,
+      "x": 7,
+      "y": 7
+    },
+    {
+      "action": 96,
+      "color": "white",
+      "ply": 1,
+      "x": 6,
+      "y": 6
+    },
+    {
+      "action": 98,
+      "color": "black",
+      "ply": 2,
+      "x": 8,
+      "y": 6
+    },
+    {
+      "action": 126,
+      "color": "white",
+      "ply": 3,
+      "x": 6,
+      "y": 8
+    },
+    {
+      "action": 111,
+      "color": "black",
+      "ply": 4,
+      "x": 6,
+      "y": 7
+    },
+    {
+      "action": 110,
+      "color": "white",
+      "ply": 5,
+      "x": 5,
+      "y": 7
+    },
+    {
+      "action": 124,
+      "color": "black",
+      "ply": 6,
+      "x": 4,
+      "y": 8
+    },
+    {
+      "action": 113,
+      "color": "white",
+      "ply": 7,
+      "x": 8,
+      "y": 7
+    },
+    {
+      "action": 142,
+      "color": "black",
+      "ply": 8,
+      "x": 7,
+      "y": 9
+    },
+    {
+      "action": 140,
+      "color": "white",
+      "ply": 9,
+      "x": 5,
+      "y": 9
+    },
+    {
+      "action": 125,
+      "color": "black",
+      "ply": 10,
+      "x": 5,
+      "y": 8
+    },
+    {
+      "action": 97,
+      "color": "white",
+      "ply": 11,
+      "x": 7,
+      "y": 6
+    },
+    {
+      "action": 95,
+      "color": "black",
+      "ply": 12,
+      "x": 5,
+      "y": 6
+    },
+    {
+      "action": 127,
+      "color": "white",
+      "ply": 13,
+      "x": 7,
+      "y": 8
+    },
+    {
+      "action": 128,
+      "color": "black",
+      "ply": 14,
+      "x": 8,
+      "y": 8
+    },
+    {
+      "action": 141,
+      "color": "white",
+      "ply": 15,
+      "x": 6,
+      "y": 9
+    },
+    {
+      "action": 156,
+      "color": "black",
+      "ply": 16,
+      "x": 6,
+      "y": 10
+    },
+    {
+      "action": 114,
+      "color": "white",
+      "ply": 17,
+      "x": 9,
+      "y": 7
+    },
+    {
+      "action": 109,
+      "color": "black",
+      "ply": 18,
+      "x": 4,
+      "y": 7
+    },
+    {
+      "action": 155,
+      "color": "white",
+      "ply": 19,
+      "x": 5,
+      "y": 10
+    },
+    {
+      "action": 38,
+      "color": "black",
+      "ply": 20,
+      "x": 8,
+      "y": 2
+    },
+    {
+      "action": 99,
+      "color": "white",
+      "ply": 21,
+      "x": 9,
+      "y": 6
+    }
+  ],
+  "provenance": {
+    "license_url": "https://gomokuparty.com/database/",
+    "raw_path": "raw/gomoku_party/gomokuparty-games-2026-09-ff1b4e5256799065.sgf.gz",
+    "revision": "gomoku-party-sgf-2 / manifest captured 2026-10-21",
+    "sha256": "ff1b4e52567990651530fbe43aabf092b7149cf8da34b2e078a2042bbb44e61d",
+    "source_url": "https://gomokuparty.com/api/v1/database/archives/gomokuparty-games-2026-09-ff1b4e5256799065.sgf.gz"
+  },
+  "result_origin": "source_record",
+  "ruleset": "freestyle",
+  "schema_version": 1,
+  "source": "gomoku_party",
+  "split": "train",
+  "termination": "board",
+  "winner": "white"
+}

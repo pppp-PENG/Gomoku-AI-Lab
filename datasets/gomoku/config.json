@@ -1,0 +1,16 @@
+{
+  "sources": [
+    "karesis",
+    "gomoku_party"
+  ],
+  "board_size": 15,
+  "rulesets": [
+    "freestyle"
+  ],
+  "seed": 42,
+  "splits": [
+    0.8,
+    0.1,
+    0.1
+  ]
+}

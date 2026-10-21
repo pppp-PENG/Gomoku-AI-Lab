@@ -1,0 +1,7 @@
+{
+  "model": {"architecture":"cnn","size":9,"channels":16,"blocks":1,"dim":16,"layers":1,"heads":2,"mlp_ratio":2},
+  "opponent_model": {"architecture":"cnn","size":9,"channels":24,"blocks":2,"dim":16,"layers":1,"heads":2,"mlp_ratio":2},
+  "mode":"paired","seed":42,"games":4,"simulations":8,"parallel_games":2,"batch_size":16,"replay_size":512,
+  "updates_per_game":2,"learning_rate":0.001,"checkpoint_every":2,"eval_every":0,"device":"auto",
+  "threads":2,"max_hours":0.1,"disk_budget_gb":1
+}
